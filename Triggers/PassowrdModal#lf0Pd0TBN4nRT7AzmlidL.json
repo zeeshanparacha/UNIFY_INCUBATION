@@ -1,0 +1,26 @@
+{
+  "id": "0TB4qK0Hz6ILpM9e0NjJY",
+  "gitBranchName": "master",
+  "name": "PassowrdModal",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "XFN644s5JxHZM_k8tbvfY",
+          "content": "",
+          "type": "",
+          "modalId": "R5iTwXglHAKZLSO6CTGLq"
+        }
+      }
+    }
+  ],
+  "csrf": "0.oxw7ci5yjvFIEF3YheYse4Nc1zS7ydu",
+  "_id": "lf0Pd0TBN4nRT7AzmlidL",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

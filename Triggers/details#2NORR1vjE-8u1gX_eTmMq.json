@@ -1,0 +1,40 @@
+{
+  "id": "MOrDNp8KQXhq0-QhhzpKq",
+  "_id": "2NORR1vjE-8u1gX_eTmMq",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "details",
+  "old_name": "details",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "bene",
+          "url": "/bene",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": false,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {},
+          "requestBody": [],
+          "baseURL": "655cbc33c500201edc02ea10",
+          "storeType": 2,
+          "securityConfiguration": "655cbc33c500201edc02ea10"
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.honlaj6rli9j1BIr9TAJpkF9NCThSBEM",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

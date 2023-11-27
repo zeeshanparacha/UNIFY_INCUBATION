@@ -1,0 +1,3108 @@
+[
+  {
+    "id": "rIYtrGPb62p48XXw0feFm",
+    "name": "SZTABLAYOUT widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "KZb_QMzJWTtCqvkSUGE7K",
+          "componentType": "10001",
+          "id": "KZb_QMzJWTtCqvkSUGE7K",
+          "position": {
+            "i": "KZb_QMzJWTtCqvkSUGE7K",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "KZb_QMzJWTtCqvkSUGE7K",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "oI_GqDxurMUz1Kg4kjEiM",
+            "gridProps": [
+              {
+                "id": "X6r_0LLT7aqFiht1s0c1j",
+                "type": "20006",
+                "name": "SZTABLAYOUT",
+                "component": { "content": "Button", "type": "20006" },
+                "attributes": {
+                  "label": "Hide",
+                  "variant": "contained",
+                  "name": "SZTABLAYOUT",
+                  "label-locale-key": "",
+                  "fullWidth": false,
+                  "layoutProperties": {
+                    "button": {
+                      "//": "Use this class to style button component.",
+                      "background": "#597709"
+                    },
+                    "iconButton": {
+                      "//": "Use this class to style icon button component.",
+                      "width": "20px",
+                      "height": "20px"
+                    },
+                    "inputProps": {
+                      "//": "Use this class to style button element."
+                    },
+                    "mainContainer": "button",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  }
+                },
+                "events": [
+                  {
+                    "triggerId": "yQ3sKDhOL9KQfb8XOqcar",
+                    "triggerName": "szHideTabModal",
+                    "serviceType": "9",
+                    "attributes": {
+                      "content": "",
+                      "type": "",
+                      "modalId": "HqqOmCfPCp3WGTy19WIHB"
+                    },
+                    "type": "2",
+                    "name": "On click"
+                  }
+                ],
+                "path": "0-0-0",
+                "version": "1.0.0"
+              },
+              {
+                "id": "e6d-MzhFv6pOH795LmfPv",
+                "type": "20028",
+                "name": "Tab layout",
+                "component": { "content": "Tab layout", "type": "20028" },
+                "attributes": {
+                  "tabs": [
+                    {
+                      "index": 0,
+                      "id": "vaQZyDO-W8fnKMWt1sq1P",
+                      "name": " Platinum Debit Card",
+                      "path": "0-0-0-0-1",
+                      "dnd": {
+                        "id": "vaQZyDO-W8fnKMWt1sq1P",
+                        "hideStep": false,
+                        "status": "ACTIVE",
+                        "_id": "611a40295ac3689e4b66a0bc",
+                        "name": "DND Layout",
+                        "wizardLayout": true,
+                        "icon": "FaChalkboard",
+                        "type": "20010",
+                        "component": {
+                          "content": "DND Layout",
+                          "type": "20010"
+                        },
+                        "path": "0-0-0-0-1",
+                        "gridProps": [
+                          {
+                            "type": "widget",
+                            "id": "VSGFkRGVOUAZiz5QSo4m3",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid Layout",
+                                "id": "An4qE9KygR91gIkkid40l",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "dQLraU2FRd2c0H08og3B9",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component."
+                                    }
+                                  },
+                                  "name": "Grid Layout"
+                                },
+                                "events": []
+                              }
+                            ],
+                            "name": " Platinum Debit Card",
+                            "icon": "FaCube",
+                            "layoutProperties": {
+                              "lg": "6",
+                              "md": "6",
+                              "sm": "6",
+                              "xs": "6",
+                              "x": "0",
+                              "y": "0",
+                              "h": "6",
+                              "w": "6"
+                            }
+                          }
+                        ],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    },
+                    {
+                      "index": 1,
+                      "id": "nIS7Lj6-YaDvImZGao6Vn",
+                      "name": " Gold Debit Card",
+                      "path": "0-0-0-0-2",
+                      "dnd": {
+                        "id": "nIS7Lj6-YaDvImZGao6Vn",
+                        "hideStep": true,
+                        "status": "ACTIVE",
+                        "_id": "611a40295ac3689e4b66a0bc",
+                        "name": "DND Layout",
+                        "wizardLayout": true,
+                        "icon": "FaChalkboard",
+                        "type": "20010",
+                        "component": {
+                          "content": "DND Layout",
+                          "type": "20010"
+                        },
+                        "path": "0-0-0-0-2",
+                        "gridProps": [
+                          {
+                            "type": "widget",
+                            "id": "ewzhZ3Gyn8wwVBBsMwbGo",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid Layout",
+                                "id": "_wU5_3lz2yKM4vrqAPIdq",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "m5CZS3Wp-N4Tszn6Hkmw2",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component."
+                                    }
+                                  },
+                                  "name": "Grid Layout"
+                                },
+                                "events": []
+                              }
+                            ],
+                            "name": " Gold Debit Card",
+                            "icon": "FaCube",
+                            "layoutProperties": {
+                              "lg": "6",
+                              "md": "6",
+                              "sm": "6",
+                              "xs": "6",
+                              "x": "0",
+                              "y": "0",
+                              "h": "6",
+                              "w": "6"
+                            }
+                          }
+                        ],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    },
+                    {
+                      "index": 2,
+                      "id": "WRK9QNMtfYg-HuTG07Yln",
+                      "name": " Silver Debit Card",
+                      "path": "0-0-0-0-3",
+                      "dnd": {
+                        "id": "WRK9QNMtfYg-HuTG07Yln",
+                        "hideStep": true,
+                        "status": "ACTIVE",
+                        "_id": "611a40295ac3689e4b66a0bc",
+                        "name": "DND Layout",
+                        "wizardLayout": true,
+                        "icon": "FaChalkboard",
+                        "type": "20010",
+                        "component": {
+                          "content": "DND Layout",
+                          "type": "20010"
+                        },
+                        "path": "0-0-0-0-3",
+                        "gridProps": [
+                          {
+                            "type": "widget",
+                            "id": "be9UN1stlHhEuZ1qfhAwp",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid Layout",
+                                "id": "6VbAGFif8TCiz6niObvfW",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "On8MHh5XKtn3pcFzPAtIl",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component."
+                                    }
+                                  },
+                                  "name": "Grid Layout"
+                                },
+                                "events": []
+                              }
+                            ],
+                            "name": " Silver Debit Card",
+                            "icon": "FaCube",
+                            "layoutProperties": {
+                              "lg": "6",
+                              "md": "6",
+                              "sm": "6",
+                              "xs": "6",
+                              "x": "0",
+                              "y": "0",
+                              "h": "6",
+                              "w": "6"
+                            }
+                          }
+                        ],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    },
+                    {
+                      "index": 3,
+                      "id": "RgdHxf_2s2-KQLb70Hd4x",
+                      "name": " UnionPay Debit Card",
+                      "path": "0-0-0-0-4",
+                      "dnd": {
+                        "id": "RgdHxf_2s2-KQLb70Hd4x",
+                        "hideStep": true,
+                        "status": "ACTIVE",
+                        "_id": "611a40295ac3689e4b66a0bc",
+                        "name": "DND Layout",
+                        "wizardLayout": true,
+                        "icon": "FaChalkboard",
+                        "type": "20010",
+                        "component": {
+                          "content": "DND Layout",
+                          "type": "20010"
+                        },
+                        "path": "0-0-0-0-4",
+                        "gridProps": [
+                          {
+                            "type": "widget",
+                            "id": "rjGWCWXAwVWP9V7suKiKj",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid Layout",
+                                "id": "PczbsUOX0Q4jmn6kWonii",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "LOvoFj3TzmmbJPjsMr0Bu",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component."
+                                    }
+                                  },
+                                  "name": "Grid Layout"
+                                },
+                                "events": []
+                              }
+                            ],
+                            "name": " UnionPay Debit Card",
+                            "icon": "FaCube",
+                            "layoutProperties": {
+                              "lg": "6",
+                              "md": "6",
+                              "sm": "6",
+                              "xs": "6",
+                              "x": "0",
+                              "y": "0",
+                              "h": "6",
+                              "w": "6"
+                            }
+                          }
+                        ],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    }
+                  ],
+                  "layoutProperties": {
+                    "tabLayout": { "background": "#3E5A1C", "color": "white" },
+                    "indicator": { "backgroundColor": "#1c2b5a" },
+                    "tab": { "color": "white" },
+                    "selectedTab": {
+                      "backgroundColor": "white",
+                      "color": "black"
+                    },
+                    "mainContainer": "tabLayout",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "name": "Tab layout",
+                  "dnds": [],
+                  "cssClassNames": [{ "cssClassName": "left " }]
+                },
+                "events": [],
+                "path": "0-0-0",
+                "version": "1.0.0",
+                "allowedContainers": ["10001", "noLayout"]
+              },
+              {
+                "id": "vaQZyDO-W8fnKMWt1sq1P",
+                "hideStep": true,
+                "status": "ACTIVE",
+                "_id": "611a40295ac3689e4b66a0bc",
+                "name": "DND Layout",
+                "wizardLayout": true,
+                "icon": "FaChalkboard",
+                "type": "20010",
+                "component": { "content": "DND Layout", "type": "20010" },
+                "path": "0-0-1",
+                "gridProps": [
+                  {
+                    "type": "widget",
+                    "id": "VSGFkRGVOUAZiz5QSo4m3",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid Layout",
+                        "id": "An4qE9KygR91gIkkid40l",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "dQLraU2FRd2c0H08og3B9",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "RCp0F5wXUIMPs9gp-6Cst",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "Ye6DWHtMUiAwAXDwA5sYm",
+                                    "gridProps": [
+                                      {
+                                        "id": "1UkpNrhGicn9k7Iwguhoh",
+                                        "status": "ACTIVE",
+                                        "name": "Image",
+                                        "icon": "FaImage",
+                                        "attributes": {
+                                          "name": "Image",
+                                          "contentType": false,
+                                          "defaultImageAssetIdTemp": {
+                                            "name": "dracaena-cinnabari.jpg",
+                                            "id": "CNIz67fi824LHr0ae-pOV"
+                                          },
+                                          "layoutProperties": {
+                                            "image": {
+                                              "//": "Use this class to style image component.",
+                                              "width": "30%"
+                                            },
+                                            "mainContainer": "image",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                          "imageAssetIdTemp": {
+                                            "createdBy": "user",
+                                            "_id": "655f2109c500201edc03473b",
+                                            "name": "visa-platinum.png",
+                                            "type": "png",
+                                            "projectId": "655616226a9c9c0f149fbf8e",
+                                            "id": "UXOk9U4jjG48U62svu4oT",
+                                            "gitBranchName": "master",
+                                            "folderType": "web",
+                                            "platform": "web",
+                                            "url": "web/visa-platinum.png",
+                                            "canvasUrl": "web/visa-platinum.png",
+                                            "createdAt": "2023-11-23T09:53:13.197Z",
+                                            "updatedAt": "2023-11-23T09:53:13.197Z",
+                                            "__v": 0,
+                                            "uri": "web/visa-platinum.png"
+                                          },
+                                          "imageAssetId": "UXOk9U4jjG48U62svu4oT",
+                                          "stateName": null,
+                                          "storeType": null,
+                                          "useFullLink": null
+                                        },
+                                        "group": "Form",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 0,
+                                        "type": "20012",
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Image",
+                                          "type": "20012"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-1-0-0-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-1-0-0-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "text-align": "center"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-1-0-0-0-0"
+                              },
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "op9LZD2Ezq-lxedtq7gN5",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "zlxCmZQ1jxtKc67td_N18",
+                                    "gridProps": [
+                                      {
+                                        "id": "xpqyn3dkeoM-TdFqhjned",
+                                        "status": "ACTIVE",
+                                        "name": "Label",
+                                        "attributes": {
+                                          "variant": "body1",
+                                          "name": "Label",
+                                          "mandatory": false,
+                                          "layoutProperties": {
+                                            "label": {
+                                              "//": "Use this class to style label component."
+                                            },
+                                            "mainContainer": "label",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "label": "Bank AL Habib Visa Platinum Debit Card is your financial power-key. Linked to over 1.7 million ATMs and 24 million merchants globally, Bank AL Habib helps you unlock premium lifestyle facilities globally."
+                                        },
+                                        "icon": "FaFont",
+                                        "group": "Form",
+                                        "type": "20002",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 15,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Label",
+                                          "type": "20002"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-1-0-0-0-1-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-1-0-0-0-1-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "text-align": "center"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-1-0-0-0-1"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-1-0-0-0"
+                          }
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component."
+                            }
+                          },
+                          "name": "Grid Layout"
+                        },
+                        "events": [],
+                        "path": "0-0-1-0-0"
+                      }
+                    ],
+                    "name": " Platinum Debit Card",
+                    "icon": "FaCube",
+                    "layoutProperties": {
+                      "lg": "6",
+                      "md": "6",
+                      "sm": "6",
+                      "xs": "6",
+                      "x": "0",
+                      "y": "0",
+                      "h": "6",
+                      "w": "6"
+                    },
+                    "path": "0-0-1-0",
+                    "showHeader": false
+                  }
+                ],
+                "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+              },
+              {
+                "id": "nIS7Lj6-YaDvImZGao6Vn",
+                "hideStep": true,
+                "status": "ACTIVE",
+                "_id": "611a40295ac3689e4b66a0bc",
+                "name": "DND Layout",
+                "wizardLayout": true,
+                "icon": "FaChalkboard",
+                "type": "20010",
+                "component": { "content": "DND Layout", "type": "20010" },
+                "path": "0-0-2",
+                "gridProps": [
+                  {
+                    "type": "widget",
+                    "id": "ewzhZ3Gyn8wwVBBsMwbGo",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid Layout",
+                        "id": "_wU5_3lz2yKM4vrqAPIdq",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "m5CZS3Wp-N4Tszn6Hkmw2",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "lv5ZFGNob2BLNVGUApX5G",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "3FcdraK-FFh-BmvXeEe_f",
+                                    "gridProps": [
+                                      {
+                                        "id": "w14Qr4y8XyotLI-vBLW-0",
+                                        "status": "ACTIVE",
+                                        "name": "Image",
+                                        "icon": "FaImage",
+                                        "attributes": {
+                                          "name": "Image",
+                                          "contentType": false,
+                                          "defaultImageAssetIdTemp": {
+                                            "name": "dracaena-cinnabari.jpg",
+                                            "id": "CNIz67fi824LHr0ae-pOV"
+                                          },
+                                          "layoutProperties": {
+                                            "image": {
+                                              "//": "Use this class to style image component.",
+                                              "width": "30%"
+                                            },
+                                            "mainContainer": "image",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                          "imageAssetIdTemp": {
+                                            "createdBy": "user",
+                                            "_id": "655f211ec500201edc034741",
+                                            "name": "visa-gold.png",
+                                            "type": "png",
+                                            "projectId": "655616226a9c9c0f149fbf8e",
+                                            "id": "sCgNa6MtPdMN66Nt-9ZqQ",
+                                            "gitBranchName": "master",
+                                            "folderType": "web",
+                                            "platform": "web",
+                                            "url": "web/visa-gold.png",
+                                            "canvasUrl": "web/visa-gold.png",
+                                            "createdAt": "2023-11-23T09:53:34.205Z",
+                                            "updatedAt": "2023-11-23T09:53:34.205Z",
+                                            "__v": 0,
+                                            "uri": "web/visa-gold.png"
+                                          },
+                                          "imageAssetId": "sCgNa6MtPdMN66Nt-9ZqQ",
+                                          "stateName": null,
+                                          "storeType": null,
+                                          "useFullLink": null
+                                        },
+                                        "group": "Form",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 0,
+                                        "type": "20012",
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Image",
+                                          "type": "20012"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-2-0-0-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-2-0-0-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "text-align": "center"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-2-0-0-0-0"
+                              },
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "aUpon6WrEaaq4-jRaIj33",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "_rHLxuxyfUvOIHB96zQAa",
+                                    "gridProps": [
+                                      {
+                                        "id": "4xO89c_1jngjkc40faElX",
+                                        "status": "ACTIVE",
+                                        "name": "Label",
+                                        "attributes": {
+                                          "variant": "body1",
+                                          "name": "Label",
+                                          "mandatory": false,
+                                          "layoutProperties": {
+                                            "label": {
+                                              "//": "Use this class to style label component."
+                                            },
+                                            "mainContainer": "label",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "label": "Bank AL Habib Visa Platinum Debit Card is your financial power-key. Linked to over 1.7 million ATMs and 24 million merchants globally, Bank AL Habib helps you unlock premium lifestyle facilities globally."
+                                        },
+                                        "icon": "FaFont",
+                                        "group": "Form",
+                                        "type": "20002",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 15,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Label",
+                                          "type": "20002"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-2-0-0-0-1-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-2-0-0-0-1-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "text-align": "center"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-2-0-0-0-1"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-2-0-0-0"
+                          }
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component."
+                            }
+                          },
+                          "name": "Grid Layout"
+                        },
+                        "events": [],
+                        "path": "0-0-2-0-0"
+                      }
+                    ],
+                    "name": " Gold Debit Card",
+                    "icon": "FaCube",
+                    "layoutProperties": {
+                      "lg": "6",
+                      "md": "6",
+                      "sm": "6",
+                      "xs": "6",
+                      "x": "0",
+                      "y": "0",
+                      "h": "6",
+                      "w": "6"
+                    },
+                    "path": "0-0-2-0"
+                  }
+                ],
+                "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+              },
+              {
+                "id": "WRK9QNMtfYg-HuTG07Yln",
+                "hideStep": true,
+                "status": "ACTIVE",
+                "_id": "611a40295ac3689e4b66a0bc",
+                "name": "DND Layout",
+                "wizardLayout": true,
+                "icon": "FaChalkboard",
+                "type": "20010",
+                "component": { "content": "DND Layout", "type": "20010" },
+                "path": "0-0-3",
+                "gridProps": [
+                  {
+                    "type": "widget",
+                    "id": "be9UN1stlHhEuZ1qfhAwp",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid Layout",
+                        "id": "6VbAGFif8TCiz6niObvfW",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "On8MHh5XKtn3pcFzPAtIl",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "T508J23g3agBkrg9T8-OJ",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "G_4cEx9r7LqFF7R-cc_fs",
+                                    "gridProps": [
+                                      {
+                                        "id": "aShJTSl4DucRu2hLxmgWI",
+                                        "status": "ACTIVE",
+                                        "name": "Image",
+                                        "icon": "FaImage",
+                                        "attributes": {
+                                          "name": "Image",
+                                          "contentType": false,
+                                          "defaultImageAssetIdTemp": {
+                                            "name": "dracaena-cinnabari.jpg",
+                                            "id": "CNIz67fi824LHr0ae-pOV"
+                                          },
+                                          "layoutProperties": {
+                                            "image": {
+                                              "//": "Use this class to style image component.",
+                                              "width": "30%"
+                                            },
+                                            "mainContainer": "image",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                          "imageAssetIdTemp": {
+                                            "createdBy": "user",
+                                            "_id": "655f2123c500201edc034746",
+                                            "name": "visa_silver.png",
+                                            "type": "png",
+                                            "projectId": "655616226a9c9c0f149fbf8e",
+                                            "id": "SJFk7P4-X5FsypQdVoJFz",
+                                            "gitBranchName": "master",
+                                            "folderType": "web",
+                                            "platform": "web",
+                                            "url": "web/visa_silver.png",
+                                            "canvasUrl": "web/visa_silver.png",
+                                            "createdAt": "2023-11-23T09:53:39.218Z",
+                                            "updatedAt": "2023-11-23T09:53:39.218Z",
+                                            "__v": 0,
+                                            "uri": "web/visa_silver.png"
+                                          },
+                                          "imageAssetId": "SJFk7P4-X5FsypQdVoJFz",
+                                          "stateName": null,
+                                          "storeType": null,
+                                          "useFullLink": null
+                                        },
+                                        "group": "Form",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 0,
+                                        "type": "20012",
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Image",
+                                          "type": "20012"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-3-0-0-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-3-0-0-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "text-align": "center"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-3-0-0-0-0"
+                              },
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "hvanG8ocu4AjyddagMSSa",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "Cf6-VpJ37V3YsoXbrRNuE",
+                                    "gridProps": [
+                                      {
+                                        "id": "dlsAFNWpWT8M_4Yebczos",
+                                        "status": "ACTIVE",
+                                        "name": "Label",
+                                        "attributes": {
+                                          "variant": "body1",
+                                          "name": "Label",
+                                          "mandatory": false,
+                                          "layoutProperties": {
+                                            "label": {
+                                              "//": "Use this class to style label component."
+                                            },
+                                            "mainContainer": "label",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "label": "Bank AL Habib Visa Silver Debit Card enables you the access to your account from over 1.65 million ATMs and 20 million merchants in 148 countries."
+                                        },
+                                        "icon": "FaFont",
+                                        "group": "Form",
+                                        "type": "20002",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 15,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Label",
+                                          "type": "20002"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-3-0-0-0-1-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-3-0-0-0-1-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "text-align": "center"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-3-0-0-0-1"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-3-0-0-0"
+                          }
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component."
+                            }
+                          },
+                          "name": "Grid Layout"
+                        },
+                        "events": [],
+                        "path": "0-0-3-0-0"
+                      }
+                    ],
+                    "name": " Silver Debit Card",
+                    "icon": "FaCube",
+                    "layoutProperties": {
+                      "lg": "6",
+                      "md": "6",
+                      "sm": "6",
+                      "xs": "6",
+                      "x": "0",
+                      "y": "0",
+                      "h": "6",
+                      "w": "6"
+                    },
+                    "path": "0-0-3-0"
+                  }
+                ],
+                "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+              },
+              {
+                "id": "RgdHxf_2s2-KQLb70Hd4x",
+                "hideStep": false,
+                "status": "ACTIVE",
+                "_id": "611a40295ac3689e4b66a0bc",
+                "name": "DND Layout",
+                "wizardLayout": true,
+                "icon": "FaChalkboard",
+                "type": "20010",
+                "component": { "content": "DND Layout", "type": "20010" },
+                "path": "0-0-4",
+                "gridProps": [
+                  {
+                    "type": "widget",
+                    "id": "rjGWCWXAwVWP9V7suKiKj",
+                    "gridProps": [
+                      {
+                        "type": "10001",
+                        "name": "Grid Layout",
+                        "id": "PczbsUOX0Q4jmn6kWonii",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "LOvoFj3TzmmbJPjsMr0Bu",
+                            "gridProps": [
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "o6fNAx9jP_OryFybm2iDi",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "PUKyK9ph-qlxadp3T9Wn1",
+                                    "gridProps": [
+                                      {
+                                        "id": "wj1Pq_RDhJ0QeuZbZP_89",
+                                        "status": "ACTIVE",
+                                        "name": "Image",
+                                        "icon": "FaImage",
+                                        "attributes": {
+                                          "name": "Image",
+                                          "contentType": false,
+                                          "defaultImageAssetIdTemp": {
+                                            "name": "dracaena-cinnabari.jpg",
+                                            "id": "CNIz67fi824LHr0ae-pOV"
+                                          },
+                                          "layoutProperties": {
+                                            "image": {
+                                              "//": "Use this class to style image component.",
+                                              "width": "30%"
+                                            },
+                                            "mainContainer": "image",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                                          "imageAssetIdTemp": {
+                                            "createdBy": "user",
+                                            "_id": "655f2128c500201edc03474b",
+                                            "name": "union-pay-gold.png",
+                                            "type": "png",
+                                            "projectId": "655616226a9c9c0f149fbf8e",
+                                            "id": "ORmzbTolLiWM065QIWHg2",
+                                            "gitBranchName": "master",
+                                            "folderType": "web",
+                                            "platform": "web",
+                                            "url": "web/union-pay-gold.png",
+                                            "canvasUrl": "web/union-pay-gold.png",
+                                            "createdAt": "2023-11-23T09:53:44.480Z",
+                                            "updatedAt": "2023-11-23T09:53:44.480Z",
+                                            "__v": 0,
+                                            "uri": "web/union-pay-gold.png"
+                                          },
+                                          "imageAssetId": "ORmzbTolLiWM065QIWHg2",
+                                          "stateName": null,
+                                          "storeType": null,
+                                          "useFullLink": null
+                                        },
+                                        "group": "Form",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 0,
+                                        "type": "20012",
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Image",
+                                          "type": "20012"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-4-0-0-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-4-0-0-0-0-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "text-align": "center"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-4-0-0-0-0"
+                              },
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "dJEajn-dEMkkUyhecZtzj",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "BihJvMMW88Y3UvSrI0WdN",
+                                    "gridProps": [
+                                      {
+                                        "id": "2_s5lxbyKY991Uw-JysKy",
+                                        "status": "ACTIVE",
+                                        "name": "Label",
+                                        "attributes": {
+                                          "variant": "body1",
+                                          "name": "Label",
+                                          "mandatory": false,
+                                          "layoutProperties": {
+                                            "label": {
+                                              "//": "Use this class to style label component."
+                                            },
+                                            "mainContainer": "label",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          },
+                                          "label": "24/7 access and a nominal fee structure makes Bank AL Habib UnionPay Debit Card your perfect banking companion."
+                                        },
+                                        "icon": "FaFont",
+                                        "group": "Form",
+                                        "type": "20002",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 15,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Label",
+                                          "type": "20002"
+                                        },
+                                        "events": [],
+                                        "path": "0-0-4-0-0-0-1-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    },
+                                    "path": "0-0-4-0-0-0-1-0"
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0,
+                                      "text-align": "center"
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-4-0-0-0-1"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "lg": 12,
+                              "md": 12,
+                              "sm": 12,
+                              "xs": 12
+                            },
+                            "path": "0-0-4-0-0-0"
+                          }
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "layoutProperties": {
+                            "gridLayout": {
+                              "//": "Use this class to style grid layout component."
+                            }
+                          },
+                          "name": "Grid Layout"
+                        },
+                        "events": [],
+                        "path": "0-0-4-0-0"
+                      }
+                    ],
+                    "name": " UnionPay Debit Card",
+                    "icon": "FaCube",
+                    "layoutProperties": {
+                      "lg": "6",
+                      "md": "6",
+                      "sm": "6",
+                      "xs": "6",
+                      "x": "0",
+                      "y": "0",
+                      "h": "6",
+                      "w": "6"
+                    },
+                    "path": "0-0-4-0"
+                  }
+                ],
+                "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "0-0"
+          }
+        ],
+        "path": 0,
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "15px",
+              "spacing": 0,
+              "box-shadow": "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",
+              "height": "50%"
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "SZTABLAYOUT widget"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "SZTABLAYOUT",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "rIYtrGPb62p48XXw0feFm",
+    "createdBy": "saqlainzaidi110",
+    "updatedAt": "11/23/2023",
+    "createdAt": "11/23/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "KZb_QMzJWTtCqvkSUGE7K",
+    "name": "SZTABLAYOUT",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "X6r_0LLT7aqFiht1s0c1j",
+          "componentType": "20006",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "e6d-MzhFv6pOH795LmfPv",
+          "componentType": "20028",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "15px",
+          "spacing": 0,
+          "box-shadow": "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",
+          "height": "50%"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "SZTABLAYOUT widget"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "X6r_0LLT7aqFiht1s0c1j",
+    "type": "20006",
+    "name": "SZTABLAYOUT",
+    "component": { "content": "Button", "type": "20006" },
+    "attributes": {
+      "label": "Hide",
+      "variant": "contained",
+      "name": "SZTABLAYOUT",
+      "label-locale-key": "",
+      "fullWidth": false,
+      "layoutProperties": {
+        "button": {
+          "//": "Use this class to style button component.",
+          "background": "#597709"
+        },
+        "iconButton": {
+          "//": "Use this class to style icon button component.",
+          "width": "20px",
+          "height": "20px"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "events": [
+      {
+        "triggerId": "yQ3sKDhOL9KQfb8XOqcar",
+        "triggerName": "szHideTabModal",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "9"
+      }
+    ],
+    "path": "0-0-0",
+    "version": "1.0.0",
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "e6d-MzhFv6pOH795LmfPv",
+    "type": "20028",
+    "name": "Tab layout",
+    "component": { "content": "Tab layout", "type": "20028" },
+    "attributes": {
+      "tabs": [
+        {
+          "index": 0,
+          "id": "vaQZyDO-W8fnKMWt1sq1P",
+          "name": " Platinum Debit Card",
+          "path": "0-0-0-0-1",
+          "dnd": {
+            "id": "vaQZyDO-W8fnKMWt1sq1P",
+            "hideStep": false,
+            "status": "ACTIVE",
+            "_id": "611a40295ac3689e4b66a0bc",
+            "name": "DND Layout",
+            "wizardLayout": true,
+            "icon": "FaChalkboard",
+            "type": "20010",
+            "component": { "content": "DND Layout", "type": "20010" },
+            "path": "0-0-0-0-1",
+            "gridProps": [
+              {
+                "type": "widget",
+                "id": "VSGFkRGVOUAZiz5QSo4m3",
+                "gridProps": [
+                  {
+                    "type": "10001",
+                    "name": "Grid Layout",
+                    "id": "An4qE9KygR91gIkkid40l",
+                    "gridProps": [
+                      {
+                        "type": "column",
+                        "id": "dQLraU2FRd2c0H08og3B9",
+                        "gridProps": [],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    ],
+                    "attributes": {
+                      "gridProps": [],
+                      "label": "Header",
+                      "layoutProperties": {
+                        "gridLayout": {
+                          "//": "Use this class to style grid layout component."
+                        }
+                      },
+                      "name": "Grid Layout"
+                    },
+                    "events": []
+                  }
+                ],
+                "name": " Platinum Debit Card",
+                "icon": "FaCube",
+                "layoutProperties": {
+                  "lg": "6",
+                  "md": "6",
+                  "sm": "6",
+                  "xs": "6",
+                  "x": "0",
+                  "y": "0",
+                  "h": "6",
+                  "w": "6"
+                }
+              }
+            ],
+            "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+          }
+        },
+        {
+          "index": 1,
+          "id": "nIS7Lj6-YaDvImZGao6Vn",
+          "name": " Gold Debit Card",
+          "path": "0-0-0-0-2",
+          "dnd": {
+            "id": "nIS7Lj6-YaDvImZGao6Vn",
+            "hideStep": true,
+            "status": "ACTIVE",
+            "_id": "611a40295ac3689e4b66a0bc",
+            "name": "DND Layout",
+            "wizardLayout": true,
+            "icon": "FaChalkboard",
+            "type": "20010",
+            "component": { "content": "DND Layout", "type": "20010" },
+            "path": "0-0-0-0-2",
+            "gridProps": [
+              {
+                "type": "widget",
+                "id": "ewzhZ3Gyn8wwVBBsMwbGo",
+                "gridProps": [
+                  {
+                    "type": "10001",
+                    "name": "Grid Layout",
+                    "id": "_wU5_3lz2yKM4vrqAPIdq",
+                    "gridProps": [
+                      {
+                        "type": "column",
+                        "id": "m5CZS3Wp-N4Tszn6Hkmw2",
+                        "gridProps": [],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    ],
+                    "attributes": {
+                      "gridProps": [],
+                      "label": "Header",
+                      "layoutProperties": {
+                        "gridLayout": {
+                          "//": "Use this class to style grid layout component."
+                        }
+                      },
+                      "name": "Grid Layout"
+                    },
+                    "events": []
+                  }
+                ],
+                "name": " Gold Debit Card",
+                "icon": "FaCube",
+                "layoutProperties": {
+                  "lg": "6",
+                  "md": "6",
+                  "sm": "6",
+                  "xs": "6",
+                  "x": "0",
+                  "y": "0",
+                  "h": "6",
+                  "w": "6"
+                }
+              }
+            ],
+            "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+          }
+        },
+        {
+          "index": 2,
+          "id": "WRK9QNMtfYg-HuTG07Yln",
+          "name": " Silver Debit Card",
+          "path": "0-0-0-0-3",
+          "dnd": {
+            "id": "WRK9QNMtfYg-HuTG07Yln",
+            "hideStep": true,
+            "status": "ACTIVE",
+            "_id": "611a40295ac3689e4b66a0bc",
+            "name": "DND Layout",
+            "wizardLayout": true,
+            "icon": "FaChalkboard",
+            "type": "20010",
+            "component": { "content": "DND Layout", "type": "20010" },
+            "path": "0-0-0-0-3",
+            "gridProps": [
+              {
+                "type": "widget",
+                "id": "be9UN1stlHhEuZ1qfhAwp",
+                "gridProps": [
+                  {
+                    "type": "10001",
+                    "name": "Grid Layout",
+                    "id": "6VbAGFif8TCiz6niObvfW",
+                    "gridProps": [
+                      {
+                        "type": "column",
+                        "id": "On8MHh5XKtn3pcFzPAtIl",
+                        "gridProps": [],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    ],
+                    "attributes": {
+                      "gridProps": [],
+                      "label": "Header",
+                      "layoutProperties": {
+                        "gridLayout": {
+                          "//": "Use this class to style grid layout component."
+                        }
+                      },
+                      "name": "Grid Layout"
+                    },
+                    "events": []
+                  }
+                ],
+                "name": " Silver Debit Card",
+                "icon": "FaCube",
+                "layoutProperties": {
+                  "lg": "6",
+                  "md": "6",
+                  "sm": "6",
+                  "xs": "6",
+                  "x": "0",
+                  "y": "0",
+                  "h": "6",
+                  "w": "6"
+                }
+              }
+            ],
+            "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+          }
+        },
+        {
+          "index": 3,
+          "id": "RgdHxf_2s2-KQLb70Hd4x",
+          "name": " UnionPay Debit Card",
+          "path": "0-0-0-0-4",
+          "dnd": {
+            "id": "RgdHxf_2s2-KQLb70Hd4x",
+            "hideStep": true,
+            "status": "ACTIVE",
+            "_id": "611a40295ac3689e4b66a0bc",
+            "name": "DND Layout",
+            "wizardLayout": true,
+            "icon": "FaChalkboard",
+            "type": "20010",
+            "component": { "content": "DND Layout", "type": "20010" },
+            "path": "0-0-0-0-4",
+            "gridProps": [
+              {
+                "type": "widget",
+                "id": "rjGWCWXAwVWP9V7suKiKj",
+                "gridProps": [
+                  {
+                    "type": "10001",
+                    "name": "Grid Layout",
+                    "id": "PczbsUOX0Q4jmn6kWonii",
+                    "gridProps": [
+                      {
+                        "type": "column",
+                        "id": "LOvoFj3TzmmbJPjsMr0Bu",
+                        "gridProps": [],
+                        "layoutProperties": {
+                          "lg": 12,
+                          "md": 12,
+                          "sm": 12,
+                          "xs": 12
+                        }
+                      }
+                    ],
+                    "attributes": {
+                      "gridProps": [],
+                      "label": "Header",
+                      "layoutProperties": {
+                        "gridLayout": {
+                          "//": "Use this class to style grid layout component."
+                        }
+                      },
+                      "name": "Grid Layout"
+                    },
+                    "events": []
+                  }
+                ],
+                "name": " UnionPay Debit Card",
+                "icon": "FaCube",
+                "layoutProperties": {
+                  "lg": "6",
+                  "md": "6",
+                  "sm": "6",
+                  "xs": "6",
+                  "x": "0",
+                  "y": "0",
+                  "h": "6",
+                  "w": "6"
+                }
+              }
+            ],
+            "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+          }
+        }
+      ],
+      "layoutProperties": {
+        "tabLayout": { "background": "#3E5A1C", "color": "white" },
+        "indicator": { "backgroundColor": "#1c2b5a" },
+        "tab": { "color": "white" },
+        "selectedTab": { "backgroundColor": "white", "color": "black" },
+        "mainContainer": "tabLayout",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "name": "Tab layout",
+      "dnds": [],
+      "cssClassNames": [{ "cssClassName": "left " }]
+    },
+    "events": [],
+    "path": "0-0-0",
+    "version": "1.0.0",
+    "allowedContainers": ["10001", "noLayout"],
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "vaQZyDO-W8fnKMWt1sq1P",
+    "name": "DND Layout",
+    "type": "20010",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "An4qE9KygR91gIkkid40l",
+          "componentType": "10001",
+          "id": "An4qE9KygR91gIkkid40l",
+          "name": " Platinum Debit Card",
+          "icon": "FaCube",
+          "showHeader": false,
+          "position": {
+            "i": "An4qE9KygR91gIkkid40l",
+            "x": 0,
+            "y": 0,
+            "w": 6,
+            "h": 6
+          },
+          "layoutProperties": {
+            "lg": "6",
+            "md": "6",
+            "sm": "6",
+            "xs": "6",
+            "x": "0",
+            "y": "0",
+            "h": "6",
+            "w": "6"
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "An4qE9KygR91gIkkid40l",
+    "name": "Grid Layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "RCp0F5wXUIMPs9gp-6Cst",
+          "componentType": "10001",
+          "id": "RCp0F5wXUIMPs9gp-6Cst",
+          "position": {
+            "i": "RCp0F5wXUIMPs9gp-6Cst",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        },
+        {
+          "componentId": "op9LZD2Ezq-lxedtq7gN5",
+          "componentType": "10001",
+          "id": "op9LZD2Ezq-lxedtq7gN5",
+          "position": {
+            "i": "op9LZD2Ezq-lxedtq7gN5",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": { "//": "Use this class to style grid layout component." }
+      },
+      "name": "Grid Layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "RCp0F5wXUIMPs9gp-6Cst",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "1UkpNrhGicn9k7Iwguhoh",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "1UkpNrhGicn9k7Iwguhoh",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "30%"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "user",
+        "_id": "655f2109c500201edc03473b",
+        "name": "visa-platinum.png",
+        "type": "png",
+        "projectId": "655616226a9c9c0f149fbf8e",
+        "id": "UXOk9U4jjG48U62svu4oT",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/visa-platinum.png",
+        "canvasUrl": "web/visa-platinum.png",
+        "createdAt": "2023-11-23T09:53:13.197Z",
+        "updatedAt": "2023-11-23T09:53:13.197Z",
+        "__v": 0,
+        "uri": "web/visa-platinum.png"
+      },
+      "imageAssetId": "UXOk9U4jjG48U62svu4oT",
+      "stateName": null,
+      "storeType": null,
+      "useFullLink": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-1-0-0-0-0-0-0",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "op9LZD2Ezq-lxedtq7gN5",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "xpqyn3dkeoM-TdFqhjned",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "xpqyn3dkeoM-TdFqhjned",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "Bank AL Habib Visa Platinum Debit Card is your financial power-key. Linked to over 1.7 million ATMs and 24 million merchants globally, Bank AL Habib helps you unlock premium lifestyle facilities globally."
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-1-0-0-0-1-0-0",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "nIS7Lj6-YaDvImZGao6Vn",
+    "name": "DND Layout",
+    "type": "20010",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "_wU5_3lz2yKM4vrqAPIdq",
+          "componentType": "10001",
+          "id": "_wU5_3lz2yKM4vrqAPIdq",
+          "name": " Gold Debit Card",
+          "icon": "FaCube",
+          "position": {
+            "i": "_wU5_3lz2yKM4vrqAPIdq",
+            "x": 0,
+            "y": 0,
+            "w": 6,
+            "h": 6
+          },
+          "layoutProperties": {
+            "lg": "6",
+            "md": "6",
+            "sm": "6",
+            "xs": "6",
+            "x": "0",
+            "y": "0",
+            "h": "6",
+            "w": "6"
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "_wU5_3lz2yKM4vrqAPIdq",
+    "name": "Grid Layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "lv5ZFGNob2BLNVGUApX5G",
+          "componentType": "10001",
+          "id": "lv5ZFGNob2BLNVGUApX5G",
+          "position": {
+            "i": "lv5ZFGNob2BLNVGUApX5G",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        },
+        {
+          "componentId": "aUpon6WrEaaq4-jRaIj33",
+          "componentType": "10001",
+          "id": "aUpon6WrEaaq4-jRaIj33",
+          "position": {
+            "i": "aUpon6WrEaaq4-jRaIj33",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": { "//": "Use this class to style grid layout component." }
+      },
+      "name": "Grid Layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "lv5ZFGNob2BLNVGUApX5G",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "w14Qr4y8XyotLI-vBLW-0",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "w14Qr4y8XyotLI-vBLW-0",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "30%"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "user",
+        "_id": "655f211ec500201edc034741",
+        "name": "visa-gold.png",
+        "type": "png",
+        "projectId": "655616226a9c9c0f149fbf8e",
+        "id": "sCgNa6MtPdMN66Nt-9ZqQ",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/visa-gold.png",
+        "canvasUrl": "web/visa-gold.png",
+        "createdAt": "2023-11-23T09:53:34.205Z",
+        "updatedAt": "2023-11-23T09:53:34.205Z",
+        "__v": 0,
+        "uri": "web/visa-gold.png"
+      },
+      "imageAssetId": "sCgNa6MtPdMN66Nt-9ZqQ",
+      "stateName": null,
+      "storeType": null,
+      "useFullLink": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-2-0-0-0-0-0-0",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "aUpon6WrEaaq4-jRaIj33",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "4xO89c_1jngjkc40faElX",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "4xO89c_1jngjkc40faElX",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "Bank AL Habib Visa Platinum Debit Card is your financial power-key. Linked to over 1.7 million ATMs and 24 million merchants globally, Bank AL Habib helps you unlock premium lifestyle facilities globally."
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-2-0-0-0-1-0-0",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "WRK9QNMtfYg-HuTG07Yln",
+    "name": "DND Layout",
+    "type": "20010",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "6VbAGFif8TCiz6niObvfW",
+          "componentType": "10001",
+          "id": "6VbAGFif8TCiz6niObvfW",
+          "name": " Silver Debit Card",
+          "icon": "FaCube",
+          "position": {
+            "i": "6VbAGFif8TCiz6niObvfW",
+            "x": 0,
+            "y": 0,
+            "w": 6,
+            "h": 6
+          },
+          "layoutProperties": {
+            "lg": "6",
+            "md": "6",
+            "sm": "6",
+            "xs": "6",
+            "x": "0",
+            "y": "0",
+            "h": "6",
+            "w": "6"
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "6VbAGFif8TCiz6niObvfW",
+    "name": "Grid Layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "T508J23g3agBkrg9T8-OJ",
+          "componentType": "10001",
+          "id": "T508J23g3agBkrg9T8-OJ",
+          "position": {
+            "i": "T508J23g3agBkrg9T8-OJ",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        },
+        {
+          "componentId": "hvanG8ocu4AjyddagMSSa",
+          "componentType": "10001",
+          "id": "hvanG8ocu4AjyddagMSSa",
+          "position": {
+            "i": "hvanG8ocu4AjyddagMSSa",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": { "//": "Use this class to style grid layout component." }
+      },
+      "name": "Grid Layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "T508J23g3agBkrg9T8-OJ",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "aShJTSl4DucRu2hLxmgWI",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "aShJTSl4DucRu2hLxmgWI",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "30%"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "user",
+        "_id": "655f2123c500201edc034746",
+        "name": "visa_silver.png",
+        "type": "png",
+        "projectId": "655616226a9c9c0f149fbf8e",
+        "id": "SJFk7P4-X5FsypQdVoJFz",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/visa_silver.png",
+        "canvasUrl": "web/visa_silver.png",
+        "createdAt": "2023-11-23T09:53:39.218Z",
+        "updatedAt": "2023-11-23T09:53:39.218Z",
+        "__v": 0,
+        "uri": "web/visa_silver.png"
+      },
+      "imageAssetId": "SJFk7P4-X5FsypQdVoJFz",
+      "stateName": null,
+      "storeType": null,
+      "useFullLink": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-3-0-0-0-0-0-0",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "hvanG8ocu4AjyddagMSSa",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "dlsAFNWpWT8M_4Yebczos",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "dlsAFNWpWT8M_4Yebczos",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "Bank AL Habib Visa Silver Debit Card enables you the access to your account from over 1.65 million ATMs and 20 million merchants in 148 countries."
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-3-0-0-0-1-0-0",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "RgdHxf_2s2-KQLb70Hd4x",
+    "name": "DND Layout",
+    "type": "20010",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "PczbsUOX0Q4jmn6kWonii",
+          "componentType": "10001",
+          "id": "PczbsUOX0Q4jmn6kWonii",
+          "name": " UnionPay Debit Card",
+          "icon": "FaCube",
+          "position": {
+            "i": "PczbsUOX0Q4jmn6kWonii",
+            "x": 0,
+            "y": 0,
+            "w": 6,
+            "h": 6
+          },
+          "layoutProperties": {
+            "lg": "6",
+            "md": "6",
+            "sm": "6",
+            "xs": "6",
+            "x": "0",
+            "y": "0",
+            "h": "6",
+            "w": "6"
+          }
+        }
+      ]
+    },
+    "layout": null,
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "PczbsUOX0Q4jmn6kWonii",
+    "name": "Grid Layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "o6fNAx9jP_OryFybm2iDi",
+          "componentType": "10001",
+          "id": "o6fNAx9jP_OryFybm2iDi",
+          "position": {
+            "i": "o6fNAx9jP_OryFybm2iDi",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        },
+        {
+          "componentId": "dJEajn-dEMkkUyhecZtzj",
+          "componentType": "10001",
+          "id": "dJEajn-dEMkkUyhecZtzj",
+          "position": {
+            "i": "dJEajn-dEMkkUyhecZtzj",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": { "//": "Use this class to style grid layout component." }
+      },
+      "name": "Grid Layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "o6fNAx9jP_OryFybm2iDi",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "wj1Pq_RDhJ0QeuZbZP_89",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "wj1Pq_RDhJ0QeuZbZP_89",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "30%"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "user",
+        "_id": "655f2128c500201edc03474b",
+        "name": "union-pay-gold.png",
+        "type": "png",
+        "projectId": "655616226a9c9c0f149fbf8e",
+        "id": "ORmzbTolLiWM065QIWHg2",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/union-pay-gold.png",
+        "canvasUrl": "web/union-pay-gold.png",
+        "createdAt": "2023-11-23T09:53:44.480Z",
+        "updatedAt": "2023-11-23T09:53:44.480Z",
+        "__v": 0,
+        "uri": "web/union-pay-gold.png"
+      },
+      "imageAssetId": "ORmzbTolLiWM065QIWHg2",
+      "stateName": null,
+      "storeType": null,
+      "useFullLink": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-4-0-0-0-0-0-0",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "dJEajn-dEMkkUyhecZtzj",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "2_s5lxbyKY991Uw-JysKy",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "2_s5lxbyKY991Uw-JysKy",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "24/7 access and a nominal fee structure makes Bank AL Habib UnionPay Debit Card your perfect banking companion."
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-4-0-0-0-1-0-0",
+    "screenId": "rIYtrGPb62p48XXw0feFm",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "id": "qneXCNs_R47K854jfEdQa",
+  "name": "Swaptologin",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "7F3N3wQqmLhQKP0CHmq83",
+          "nextWidgetId": "NC7K5GiQ_vFtVoDCSH6qP",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.8xm64zcayvaYmbGPxuT5xBRh_kTft5KV",
+  "_id": "3Jk5V5gKR2r4MdSTOTIr1",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

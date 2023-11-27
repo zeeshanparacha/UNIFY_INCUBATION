@@ -1,0 +1,27 @@
+{
+  "id": "PZF0S3HgeX-MOV05m2LfP",
+  "name": "msawap",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "5EEpIcjwoj_5odLxr3d4G",
+          "nextWidgetId": "rrXz8u5TnvPC0HVPJRPri",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.ohdxcc7t26KHdWd3zxBwkLcbzuLzXSV",
+  "_id": "lER4lV94dYd186DaKL8Ql",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "mubashar",
+  "updatedBy": "mubashar"
+}

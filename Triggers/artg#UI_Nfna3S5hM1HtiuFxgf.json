@@ -1,0 +1,46 @@
+{
+  "id": "hVFztT0KWx9Xz1f-Ln56n",
+  "_id": "UI_Nfna3S5hM1HtiuFxgf",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "artg",
+  "old_name": "artg",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "arbk",
+          "url": "/ahmedraza",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "655e0769c500201edc032e72",
+          "storeType": 2,
+          "securityConfiguration": "655e0769c500201edc032e72"
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.kq9hw4540rJgaVqBdIPDwp0-T4T4kLM",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

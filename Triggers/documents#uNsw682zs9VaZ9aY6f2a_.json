@@ -1,0 +1,27 @@
+{
+  "id": "vVg_ZoLqO4mQ9XqHEwCI_",
+  "name": "documents",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "yoFujxNPzKmibUpqlb5k-",
+          "nextWidgetId": "aXI3mpStaUUmsYC5HpNRB",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.ty73qnxar7sq6jC4cJdOuBvJle-qxXql",
+  "_id": "uNsw682zs9VaZ9aY6f2a_",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

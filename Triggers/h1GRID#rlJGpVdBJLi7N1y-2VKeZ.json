@@ -1,0 +1,27 @@
+{
+  "id": "V1srRc5jlD8zFzCIHkr0m",
+  "name": "h1GRID",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "JK--Bmo2-5XK3XteXsWVa",
+          "nextWidgetId": "btVQWSOMIWQcq9ywhy9hy",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.l6xkbu633ij8oq_6MXHnymu6t4lRsM4A",
+  "_id": "rlJGpVdBJLi7N1y-2VKeZ",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "hasnain",
+  "updatedBy": "hasnain"
+}

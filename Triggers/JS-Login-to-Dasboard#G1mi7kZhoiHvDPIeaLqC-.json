@@ -1,0 +1,27 @@
+{
+  "id": "s6EDEv1fNyn7KVcK2r_K9",
+  "name": "JS Login to Dasboard",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "0RCMNrsWHysbfzdgufagj",
+          "nextWidgetId": "UDWQPGGE2cJ27eEqF5hsR",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.8n38kwrp3g3RoqELaJ9-9KxUNZScOE9E",
+  "_id": "G1mi7kZhoiHvDPIeaLqC-",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

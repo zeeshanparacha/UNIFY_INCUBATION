@@ -1,0 +1,27 @@
+{
+  "id": "gaw05kkFVLtaShzaJIfDd",
+  "name": "abc123",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "tYXsMd5a6RF4GHf0sCPj6",
+          "nextWidgetId": "f2UqhywjCBh9pnd2B7S3N",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.ohdxcc7t26KHdWd3zxBwkLcbzuLzXSV",
+  "_id": "p68Hu7UTf_uxTcHCxStIq",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "mubashar",
+  "updatedBy": "mubashar"
+}

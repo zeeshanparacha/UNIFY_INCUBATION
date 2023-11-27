@@ -1,0 +1,46 @@
+{
+  "id": "mN23nsBeK0UKxRAC71Wm3",
+  "_id": "4xqsgv1wXaVILPsPzxRJJ",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "ahmedTg_2",
+  "old_name": "ahmedTg_2",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "ahmedBk_2",
+          "url": "/ahmedraza",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "655ee0cbc500201edc033504",
+          "storeType": 2,
+          "authorization": {}
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.77wa0come8mgAV7-gexKVTC8P_wR6l0F",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

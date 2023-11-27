@@ -1,0 +1,39 @@
+{
+  "id": "zk9iVS1vMNUO4YgsIyp1T",
+  "_id": "PlQGv0HMjic1ne1Jxv5br",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "ahmedGetDataT",
+  "old_name": "ahmedGetDataT",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "ahmedrazaBK",
+          "url": "/ahmedraza",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {},
+          "requestBody": [],
+          "baseURL": "655cbc33c500201edc02ea10",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.bm8n066fum4Ywb37eg7jTfYdTwrV5BJX",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "_BUjmntCJ61Zj_AoVU9nj",
+  "name": "sz logout",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "02slpS5J3CiiOQj-762bg",
+          "nextWidgetId": "Kh1vIgtmKWXppGDR8ezEK",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.8n38kwrp3g3RoqELaJ9-9KxUNZScOE9E",
+  "_id": "To99V3zEPc3UVxF4v7kDr",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

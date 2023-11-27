@@ -1,0 +1,27 @@
+{
+  "id": "4U31CQoZFcft0uK4ayNMW",
+  "name": "Page swap",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "c5OrVyl8nGgPnMb-cMO_8",
+          "nextWidgetId": "JK--Bmo2-5XK3XteXsWVa",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.6ljnsvfv2lubU69lqbiDP8XLJHojtNjU",
+  "_id": "Cuue2nDumYvEPPRRO96qT",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "hasnain",
+  "updatedBy": "hasnain"
+}

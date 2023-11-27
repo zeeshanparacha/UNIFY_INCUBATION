@@ -1,0 +1,27 @@
+{
+  "id": "YJJaneEZTaQJY_frt_fjx",
+  "name": "szFirstNav",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "Kh1vIgtmKWXppGDR8ezEK",
+          "nextWidgetId": "02slpS5J3CiiOQj-762bg",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.sr4tksslpscoxBpmg_g8E28uhGYFsAbx",
+  "_id": "PDiybHtLY4vT9OI-ZOgxb",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

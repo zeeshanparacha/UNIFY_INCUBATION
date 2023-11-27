@@ -1,0 +1,191 @@
+[
+  {
+    "id": "bebubgJbk_cvAJIFhdVKi",
+    "name": "szUsernameModal",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "Nm4F1Y3yX0w32WcwHUfSA",
+          "componentType": "10001",
+          "id": "Nm4F1Y3yX0w32WcwHUfSA",
+          "position": {
+            "i": "Nm4F1Y3yX0w32WcwHUfSA",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "Nm4F1Y3yX0w32WcwHUfSA",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "-CaXMYXxigqlx8Je-2Auj",
+            "gridProps": [
+              {
+                "id": "S8Up_hhDxBsVIqE8jmtI6",
+                "type": "20002",
+                "name": "Label",
+                "component": { "content": "Label", "type": "20002" },
+                "attributes": {
+                  "variant": "body1",
+                  "name": "Label",
+                  "mandatory": false,
+                  "layoutProperties": {
+                    "label": {
+                      "//": "Use this class to style label component.",
+                      "width": "100%",
+                      "height": "100%",
+                      "font-size": "30px"
+                    },
+                    "mainContainer": "label",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "label": "Please write down any name you want, and then add an email address next to it."
+                },
+                "events": [],
+                "path": "1-0-0",
+                "version": "1.0.0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "1-0"
+          }
+        ],
+        "path": 1,
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0,
+              "text-align": "center"
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "szUsernameModal"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "szUsernameModal"
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "bebubgJbk_cvAJIFhdVKi",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "bebubgJbk_cvAJIFhdVKi",
+    "createdBy": "saqlainzaidi110",
+    "updatedAt": "11/23/2023",
+    "createdAt": "11/23/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "Nm4F1Y3yX0w32WcwHUfSA",
+    "name": "szUsernameModal",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "S8Up_hhDxBsVIqE8jmtI6",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0,
+          "text-align": "center"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "szUsernameModal"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "bebubgJbk_cvAJIFhdVKi",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "S8Up_hhDxBsVIqE8jmtI6",
+    "type": "20002",
+    "name": "Label",
+    "component": { "content": "Label", "type": "20002" },
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": {
+          "//": "Use this class to style label component.",
+          "width": "100%",
+          "height": "100%",
+          "font-size": "30px"
+        },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "Please write down any name you want, and then add an email address next to it."
+    },
+    "events": [],
+    "path": "1-0-0",
+    "version": "1.0.0",
+    "subType": "component",
+    "screenId": "bebubgJbk_cvAJIFhdVKi",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

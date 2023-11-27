@@ -1,0 +1,27 @@
+{
+  "id": "-1irhRj0T1Lk3Y5YELa_A",
+  "name": "szTabSwap",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "pQsDXX4j1S_ALQXof18kM",
+          "nextWidgetId": "rIYtrGPb62p48XXw0feFm",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.qt9qt8wz8bkY6YNj2oQIzJcSEmGQ09rq",
+  "_id": "cQxorhS81ovS7VFPoahhf",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Pac4lzQO_Zs9KfXceEbsr",
+  "name": "ahmedwap",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "S5TBLHkciXDySzTerfk2C",
+          "nextWidgetId": "RfqiKxJRFuCksaOKJN_fu",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.vj4km6fy7zaoiNtQKXFStpDSisaBQzng",
+  "_id": "Cyb9eqW8Ntp0wwi4fgThe",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

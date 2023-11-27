@@ -1,0 +1,28 @@
+{
+  "id": "THOnXZGg0pf90L9AZnr4u",
+  "_id": "D7Q4Hjb9AXWjDjoB1cWd3",
+  "name": "amoun to money",
+  "old_name": "amoun to money",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "xFnq2ttwXkIQcjH8nd5Ws",
+          "nextWidgetId": "nD3U-G5fFyJmzVnhJoCOV",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.ejuioun1gc6H602lz1Gb7pcFvYTWbrhy",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

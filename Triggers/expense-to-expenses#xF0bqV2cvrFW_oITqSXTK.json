@@ -1,0 +1,26 @@
+{
+  "id": "UI5pkjI8XUbWib6MQO_X5",
+  "name": "expense to expenses",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "UDWQPGGE2cJ27eEqF5hsR",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.4h5or886gtykd4Lsb4g2g257nDFtyg0b",
+  "_id": "xF0bqV2cvrFW_oITqSXTK",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "b9_Qyx5DgJvCZvsptutTa",
+  "name": "Logout from dashboard",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "UDWQPGGE2cJ27eEqF5hsR",
+          "nextWidgetId": "mC6jt6Xcw_Ovy0Ya97nBD",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.fqpfllkhl3aiQTP5S2LZGB87JxAcoenc",
+  "_id": "8WLhaXkCsLd5AadJOeOz2",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

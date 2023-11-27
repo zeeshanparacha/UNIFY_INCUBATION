@@ -1,0 +1,27 @@
+{
+  "id": "yMjzhsIhKDYw9bHU1jIH1",
+  "name": "NAVIGATE TO FORM SCREEN",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "tYXsMd5a6RF4GHf0sCPj6",
+          "nextWidgetId": "qm_wTap1opCVkq2Wj7kTt",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.t9622e3dlwgUExmWm7B4EkXnCXUxey4",
+  "_id": "INRshLnUVnm4kiwkVKgSU",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "mubashar",
+  "updatedBy": "mubashar"
+}

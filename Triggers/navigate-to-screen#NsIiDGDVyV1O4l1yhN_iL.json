@@ -1,0 +1,27 @@
+{
+  "id": "IrPkA4v4xB-sL7x6R2HC-",
+  "name": "navigate to screen",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "tYXsMd5a6RF4GHf0sCPj6",
+          "nextWidgetId": "4no50RHJ6OLhr2g_891Bp",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.t9622e3dlwgUExmWm7B4EkXnCXUxey4",
+  "_id": "NsIiDGDVyV1O4l1yhN_iL",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "mubashar",
+  "updatedBy": "mubashar"
+}

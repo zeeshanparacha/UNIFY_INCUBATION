@@ -1,0 +1,45 @@
+{
+  "id": "T-hW-tiDPlYyUjIBch4Y2",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "getdata",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "data0",
+          "url": "/data",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": false,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "655df30ec500201edc0322c9",
+          "storeType": 2,
+          "securityConfiguration": "655df30ec500201edc0322c9"
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.4h5or886gtykd4Lsb4g2g257nDFtyg0b",
+  "_id": "9EnIqt5tw2BfHXnYMyxCX",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

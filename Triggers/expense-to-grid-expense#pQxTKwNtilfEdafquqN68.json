@@ -1,0 +1,28 @@
+{
+  "id": "CC_AuV7629lyUDizA1y3W",
+  "_id": "pQxTKwNtilfEdafquqN68",
+  "name": "expense to grid expense",
+  "old_name": "expense to grid expense",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "yoFujxNPzKmibUpqlb5k-",
+          "nextWidgetId": "o0O-fiYRFNnADdrqg1sXy",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.4h5or886gtykd4Lsb4g2g257nDFtyg0b",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

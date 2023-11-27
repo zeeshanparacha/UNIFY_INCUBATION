@@ -1,0 +1,27 @@
+{
+  "id": "eXY6pT8Oj0Sq5TnwcmfKJ",
+  "name": "Swapping GRIDS",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "wlN10gtZ33BZESGnSvk-B",
+          "nextWidgetId": "AU3Li7LRBb_WzsGt2OPUo",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.a5ikqddwd1ddMVQT5lw9S_Y-1BzwJdnn",
+  "_id": "UkqS3ZqvlFIaNhw-myht1",
+  "updatedAt": "11/21/2023",
+  "createdAt": "11/21/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

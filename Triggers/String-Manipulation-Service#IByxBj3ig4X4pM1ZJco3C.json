@@ -1,0 +1,29 @@
+{
+  "id": "o91h1yxIbi83h8dDucIMf",
+  "gitBranchName": "master",
+  "name": "String Manipulation Service",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "15",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "destinationBindingKey": "money",
+          "sourceBindingKey": "money1",
+          "sourceStoreType": 3,
+          "destinationStoreType": 3,
+          "splittingValue": "",
+          "replacedFromValue": "",
+          "replaceAll": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.d9htx9jxx4QH8RLUV0H-_SLWL78ynm-",
+  "_id": "IByxBj3ig4X4pM1ZJco3C",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

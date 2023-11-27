@@ -1,0 +1,100 @@
+{
+  "_id": "m9S0kIPJhkx_176KFLLEg",
+  "id": "HHPUS2coux4JhJ_Rzwj_w",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "Data-clear-add",
+  "old_name": "Data-clear-add",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "id": "xkuT9wB1dhuAJkU6DVozp",
+              "name": "add data in table",
+              "projectId": "655616226a9c9c0f149fbf8e",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "11",
+                  "command": {
+                    "type": "1",
+                    "attributes": {
+                      "stateName": "saveData",
+                      "requestBody": [
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "name",
+                          "value": "name"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "cnic",
+                          "value": "cnic"
+                        },
+                        {
+                          "type": 1,
+                          "name": "Form",
+                          "key": "amount",
+                          "value": "amount"
+                        }
+                      ],
+                      "storeType": "",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "dataType": "",
+                      "sourceBindingKey": ""
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.uhtcxvnwa5hoL66HrUe2aQLID0TNHN",
+              "_id": "98z5m0hgFudfQzasIshWU",
+              "updatedAt": "11/23/2023",
+              "createdAt": "11/23/2023",
+              "createdBy": "mubashar",
+              "updatedBy": "mubashar"
+            },
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "63247a318c5ded569ce08e69",
+              "id": "C9VAY5AImRfVpeNy7pz65",
+              "name": "Clear Form Data",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "1"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            }
+          ],
+          "triggerIds": ["xkuT9wB1dhuAJkU6DVozp", "C9VAY5AImRfVpeNy7pz65"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.uhtcxvnwa5hoL66HrUe2aQLID0TNHN",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "mubashar",
+  "updatedBy": "mubashar"
+}

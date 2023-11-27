@@ -1,0 +1,27 @@
+{
+  "id": "cLN8xH1X7i0ILU2-JrDHV",
+  "name": "mubswaptable",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "tNVw8DbAgtpNgkR5hYHCm",
+          "nextWidgetId": "wGtBXccDW1pjDrNrNixE4",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.w290edoycg35Ja1GaD3_fKZ3ykYCqFH",
+  "_id": "7_jru-IVGcu-SEVbT_X4B",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "mubashar",
+  "updatedBy": "mubashar"
+}

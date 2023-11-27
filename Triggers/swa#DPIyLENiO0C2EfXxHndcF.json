@@ -1,0 +1,27 @@
+{
+  "id": "lhvGsq3xM1_eXPtAkKZ74",
+  "name": "swa",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "XGremI9G9CigsDlPBjTro",
+          "nextWidgetId": "jlyrjsR_jIb2jsrALGP4V",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.uspdif0lh68RPzjjBeWvFhGXPl8XTjNq",
+  "_id": "DPIyLENiO0C2EfXxHndcF",
+  "updatedAt": "11/24/2023",
+  "createdAt": "11/24/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

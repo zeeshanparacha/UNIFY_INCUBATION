@@ -1,0 +1,28 @@
+{
+  "id": "fWF7xD92cIU0yhGpAzchH",
+  "_id": "4tT6CMro30MDXMNlltSMl",
+  "name": "szSwapDataTable",
+  "old_name": "szSwapDataTable",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "pQsDXX4j1S_ALQXof18kM",
+          "nextWidgetId": "yDZej40XcxNqf_OHmNHK3",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.oxw7ci5yjvFIEF3YheYse4Nc1zS7ydu",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

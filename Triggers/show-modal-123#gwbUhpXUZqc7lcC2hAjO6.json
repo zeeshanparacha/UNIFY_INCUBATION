@@ -1,0 +1,26 @@
+{
+  "id": "zpqmAjU5kyROCIOTaiQLb",
+  "gitBranchName": "master",
+  "name": "show modal 123",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "wGtBXccDW1pjDrNrNixE4",
+          "content": "",
+          "type": "",
+          "modalId": "w2PpuJ0xEoNvkKH4jxHb0"
+        }
+      }
+    }
+  ],
+  "csrf": "0.w290edoycg35Ja1GaD3_fKZ3ykYCqFH",
+  "_id": "gwbUhpXUZqc7lcC2hAjO6",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "mubashar",
+  "updatedBy": "mubashar"
+}

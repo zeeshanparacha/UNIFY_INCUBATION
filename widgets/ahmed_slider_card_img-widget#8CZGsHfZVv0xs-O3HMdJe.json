@@ -1,0 +1,265 @@
+[
+  {
+    "id": "8CZGsHfZVv0xs-O3HMdJe",
+    "name": "ahmed_slider_card_img widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "CjIrf6HIQ2Yf3Ws3vyyC6",
+          "componentType": "10001",
+          "id": "CjIrf6HIQ2Yf3Ws3vyyC6",
+          "position": {
+            "i": "CjIrf6HIQ2Yf3Ws3vyyC6",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "name": "ahmed_slider_card_img",
+        "id": "CjIrf6HIQ2Yf3Ws3vyyC6",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "K1Kh29iBTYwfnKTq1VUXR",
+            "gridProps": [
+              {
+                "id": "TkoCjz5Kyiul8U26fEBCH",
+                "status": "ACTIVE",
+                "name": "Image",
+                "icon": "FaImage",
+                "attributes": {
+                  "name": "Image",
+                  "contentType": false,
+                  "defaultImageAssetIdTemp": {
+                    "name": "dracaena-cinnabari.jpg",
+                    "id": "CNIz67fi824LHr0ae-pOV"
+                  },
+                  "layoutProperties": {
+                    "image": {
+                      "//": "Use this class to style image component.",
+                      "width": "500px",
+                      "borderRadius": "30px"
+                    },
+                    "mainContainer": "image",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                  "imageAssetIdTemp": {
+                    "createdBy": "user",
+                    "_id": "656466a0a55dca0f980154be",
+                    "name": "car_yellow.jpg",
+                    "type": "jpg",
+                    "projectId": "655616226a9c9c0f149fbf8e",
+                    "id": "qNwA4W1vlQ_g1bcuVJmgZ",
+                    "gitBranchName": "master",
+                    "folderType": "web",
+                    "platform": "web",
+                    "url": "web/car_yellow.jpg",
+                    "canvasUrl": "web/car_yellow.jpg",
+                    "createdAt": "2023-11-27T09:51:28.622Z",
+                    "updatedAt": "2023-11-27T09:51:28.622Z",
+                    "__v": 0,
+                    "uri": "web/car_yellow.jpg"
+                  },
+                  "imageAssetId": "qNwA4W1vlQ_g1bcuVJmgZ",
+                  "stateName": null,
+                  "storeType": null,
+                  "useFullLink": null
+                },
+                "group": "Form",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 0,
+                "type": "20012",
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Image", "type": "20012" },
+                "events": [],
+                "path": "0-1-0-0-1-1-0-0-0-0-0-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "0px",
+              "spacing": 0,
+              "width": "500px",
+              "borderRadius": "30px"
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "events": [],
+        "component": { "type": "10001", "content": "Grid layout" },
+        "path": "0-1-0-0-1-1-0-0-0-0-0",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12,
+          "name": null
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "8CZGsHfZVv0xs-O3HMdJe",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "8CZGsHfZVv0xs-O3HMdJe",
+    "createdBy": "ahmedraza",
+    "updatedAt": "11/27/2023",
+    "createdAt": "11/27/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "CjIrf6HIQ2Yf3Ws3vyyC6",
+    "name": "ahmed_slider_card_img",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "TkoCjz5Kyiul8U26fEBCH",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "0px",
+          "spacing": 0,
+          "width": "500px",
+          "borderRadius": "30px"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "HbtvdxUXCEQ2cWrdU7XEY",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "TkoCjz5Kyiul8U26fEBCH",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "500px",
+          "borderRadius": "30px"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "user",
+        "_id": "656466a0a55dca0f980154be",
+        "name": "car_yellow.jpg",
+        "type": "jpg",
+        "projectId": "655616226a9c9c0f149fbf8e",
+        "id": "qNwA4W1vlQ_g1bcuVJmgZ",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/car_yellow.jpg",
+        "canvasUrl": "web/car_yellow.jpg",
+        "createdAt": "2023-11-27T09:51:28.622Z",
+        "updatedAt": "2023-11-27T09:51:28.622Z",
+        "__v": 0,
+        "uri": "web/car_yellow.jpg"
+      },
+      "imageAssetId": "qNwA4W1vlQ_g1bcuVJmgZ",
+      "stateName": null,
+      "storeType": null,
+      "useFullLink": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-1-0-0-1-1-0-0-0-0-0-0-0",
+    "screenId": "HbtvdxUXCEQ2cWrdU7XEY",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

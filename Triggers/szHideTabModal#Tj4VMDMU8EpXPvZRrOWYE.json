@@ -1,0 +1,25 @@
+{
+  "id": "yQ3sKDhOL9KQfb8XOqcar",
+  "gitBranchName": "master",
+  "name": "szHideTabModal",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "content": "",
+          "type": "",
+          "modalId": "HqqOmCfPCp3WGTy19WIHB"
+        }
+      }
+    }
+  ],
+  "csrf": "0.g7avu19serhXX9mfEgqFQwlbN0C8sM3",
+  "_id": "Tj4VMDMU8EpXPvZRrOWYE",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

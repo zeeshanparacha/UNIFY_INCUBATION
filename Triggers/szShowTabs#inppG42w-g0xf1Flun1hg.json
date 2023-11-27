@@ -1,0 +1,24 @@
+{
+  "id": "Ak_A8BpwF4d2zDUdalLOv",
+  "gitBranchName": "master",
+  "name": "szShowTabs",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "rIYtrGPb62p48XXw0feFm",
+          "modalId": "MwNdLj2krUBDLmV2qojTB"
+        }
+      }
+    }
+  ],
+  "csrf": "0.g7avu19serhXX9mfEgqFQwlbN0C8sM3",
+  "_id": "inppG42w-g0xf1Flun1hg",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

@@ -1,0 +1,487 @@
+[
+  {
+    "id": "Dy3xweuwpEn2YxdYUmsaE",
+    "name": "List_Bilawal_Statement",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "JTY08QnfEFMcTVTLutJCd",
+          "componentType": "10001",
+          "id": "JTY08QnfEFMcTVTLutJCd",
+          "position": {
+            "i": "JTY08QnfEFMcTVTLutJCd",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "JTY08QnfEFMcTVTLutJCd",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "group": "Layout",
+        "type": "10001",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [
+          {
+            "triggerId": "ZnZMB45TBYxJgP1Bkndbi",
+            "triggerName": "checktheapi",
+            "serviceType": "8",
+            "attributes": {
+              "loaderWidgetIds": [906070],
+              "messageWidgetIds": [906070],
+              "responseStateKey": "check",
+              "url": "/help",
+              "checksum": true,
+              "encryption": true,
+              "isDeviceDetails": false,
+              "loginTrigger": false,
+              "formData": false,
+              "logoutTrigger": false,
+              "headers": {
+                "Content-Type": "application/json",
+                "Accept": "application/json",
+                "channel_key": "001",
+                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                "locale": "en-ltr"
+              },
+              "requestBody": [],
+              "baseURL": "65604027c500201edc036396",
+              "storeType": 2
+            },
+            "type": "1",
+            "name": "On initialization"
+          }
+        ],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": "0",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "3cv5J_gs3JwEi8XErgeo0",
+            "gridProps": [
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "j8Fj8zJAP_zqrIaj1VYA8",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "W7TbY0O_Wdwtn1K5PBeST",
+                    "gridProps": [
+                      {
+                        "type": "20009",
+                        "name": "List layout with parse",
+                        "id": "SVndNJEdLBaJ3vZ50fm1N",
+                        "gridProps": [
+                          {
+                            "type": "column",
+                            "id": "AER2LsSWRRj8ua5Yf50co",
+                            "gridProps": [
+                              {
+                                "id": "JG70qWn1H8RD4NuX7-aIP",
+                                "status": "ACTIVE",
+                                "name": "Label",
+                                "attributes": {
+                                  "variant": "body1",
+                                  "name": "Label",
+                                  "mandatory": false,
+                                  "layoutProperties": {
+                                    "label": {
+                                      "//": "Use this class to style label component."
+                                    },
+                                    "mainContainer": "label",
+                                    "xl": 12,
+                                    "lg": 12,
+                                    "md": 4,
+                                    "sm": 12,
+                                    "xs": 12
+                                  },
+                                  "label": "bankIMD",
+                                  "searchInState": true,
+                                  "storeType": 2
+                                },
+                                "icon": "FaFont",
+                                "group": "Form",
+                                "type": "20002",
+                                "updatedAt": "23-Aug-2021",
+                                "createdAt": "23-Aug-2021",
+                                "order": 15,
+                                "version": "1.0.0",
+                                "isLatest": true,
+                                "projectType": "web",
+                                "component": {
+                                  "content": "Label",
+                                  "type": "20002"
+                                },
+                                "events": [],
+                                "path": "0-0-0-0-0-0-0"
+                              }
+                            ],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 4,
+                              "sm": 12,
+                              "xs": 12
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "fVY9A7qhKMoladcN-WGRU",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 4,
+                              "sm": 12,
+                              "xs": 12
+                            }
+                          },
+                          {
+                            "type": "column",
+                            "id": "eBwDTXwNt9-5dkyfuUBZC",
+                            "gridProps": [],
+                            "layoutProperties": {
+                              "xl": 12,
+                              "lg": 12,
+                              "md": 4,
+                              "sm": 12,
+                              "xs": 12
+                            }
+                          }
+                        ],
+                        "allowedContainers": [
+                          "10001",
+                          "20009",
+                          "widget",
+                          "noLayout",
+                          "20010"
+                        ],
+                        "attributes": {
+                          "gridProps": [],
+                          "label": "Header",
+                          "listItemSize": {
+                            "xs": "12",
+                            "sm": "12",
+                            "md": "12",
+                            "lg": "12",
+                            "xl": "12"
+                          },
+                          "layoutProperties": {
+                            "itemStyle": { "padding": "10px" },
+                            "listLayout": { "padding": "5px" },
+                            "mainContainer": "listLayout"
+                          },
+                          "storeType": 2,
+                          "dataSource": "check.content"
+                        },
+                        "events": [],
+                        "component": {
+                          "type": "20009",
+                          "content": "List layout with parse"
+                        }
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    }
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [],
+                "component": { "type": "10001", "content": "Grid layout" }
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "Dy3xweuwpEn2YxdYUmsaE",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "Dy3xweuwpEn2YxdYUmsaE",
+    "createdBy": "bilawal.farooq",
+    "updatedAt": "11/24/2023",
+    "createdAt": "11/24/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "JTY08QnfEFMcTVTLutJCd",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "j8Fj8zJAP_zqrIaj1VYA8",
+          "componentType": "10001",
+          "id": "j8Fj8zJAP_zqrIaj1VYA8",
+          "position": {
+            "i": "j8Fj8zJAP_zqrIaj1VYA8",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "ZnZMB45TBYxJgP1Bkndbi",
+        "triggerName": "checktheapi",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
+    "subType": "component",
+    "screenId": "Dy3xweuwpEn2YxdYUmsaE",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "j8Fj8zJAP_zqrIaj1VYA8",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "SVndNJEdLBaJ3vZ50fm1N",
+          "componentType": "20009",
+          "id": "SVndNJEdLBaJ3vZ50fm1N",
+          "position": {
+            "i": "SVndNJEdLBaJ3vZ50fm1N",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "Dy3xweuwpEn2YxdYUmsaE",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "SVndNJEdLBaJ3vZ50fm1N",
+    "name": "List layout with parse",
+    "type": "20009",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 4,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "JG70qWn1H8RD4NuX7-aIP",
+          "componentType": "20002",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "listItemSize": {
+        "xs": "12",
+        "sm": "12",
+        "md": "12",
+        "lg": "12",
+        "xl": "12"
+      },
+      "layoutProperties": {
+        "itemStyle": { "padding": "10px" },
+        "listLayout": { "padding": "5px" },
+        "mainContainer": "listLayout"
+      },
+      "storeType": 2,
+      "dataSource": "check.content"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "Dy3xweuwpEn2YxdYUmsaE",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "JG70qWn1H8RD4NuX7-aIP",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 4,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "bankIMD",
+      "searchInState": true,
+      "storeType": 2
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-0-0-0",
+    "screenId": "Dy3xweuwpEn2YxdYUmsaE",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

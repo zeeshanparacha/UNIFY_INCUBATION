@@ -1,0 +1,46 @@
+{
+  "id": "I0pMRNYHr1ZlvlEmRSINL",
+  "_id": "h0TJuZCr-PuX2Z66zXKoY",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "ar_tg",
+  "old_name": "ar_tg",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "ar_bk",
+          "url": "/getData",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "655f4100c500201edc035312",
+          "storeType": 2,
+          "securityConfiguration": "655f4100c500201edc035312"
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.77wa0come8mgAV7-gexKVTC8P_wR6l0F",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

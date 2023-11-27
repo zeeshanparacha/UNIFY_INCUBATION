@@ -1,0 +1,222 @@
+[
+  {
+    "id": "4hrLUZ69D-XNbL7Ev9NO1",
+    "name": "Grid layout widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "4Yw5cKU9NIGS7KLURlUQl",
+          "componentType": "10001",
+          "id": "4Yw5cKU9NIGS7KLURlUQl",
+          "position": {
+            "i": "4Yw5cKU9NIGS7KLURlUQl",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "name": "Grid layout",
+        "id": "4Yw5cKU9NIGS7KLURlUQl",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "jPMePUfeqOzPSQVzpVQp_",
+            "gridProps": [
+              {
+                "id": "BQS59HuTMRwjHvGyQxxav",
+                "status": "ACTIVE",
+                "name": "Toggle switch",
+                "attributes": {
+                  "size": "medium",
+                  "name": "Toggle Switch",
+                  "label": "Present",
+                  "stateName": "test",
+                  "layoutProperties": {
+                    "toggleSwitch": {
+                      "//": "Use this class to style checkbox component."
+                    },
+                    "formControlLabel": {
+                      "//": "Use this class to style checkbox label."
+                    },
+                    "mainContainer": "formControlLabel",
+                    "xl": 4,
+                    "lg": 4,
+                    "md": 4,
+                    "sm": 4,
+                    "xs": 4
+                  }
+                },
+                "icon": "FaToggleOn",
+                "group": "Form",
+                "type": "20039",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 16,
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Toggle switch", "type": "20039" },
+                "events": [],
+                "path": "1-0-2-0-1-0-0"
+              }
+            ],
+            "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          },
+          {
+            "type": "column",
+            "id": "kOrIOqXWEfMW5BBdXY_ub",
+            "gridProps": [],
+            "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          },
+          {
+            "type": "column",
+            "id": "rOIQhVTy3VWnj00SqYH91",
+            "gridProps": [],
+            "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          }
+        ],
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout",
+          "columns": "3"
+        },
+        "events": [],
+        "component": { "type": "10001", "content": "Grid layout" },
+        "path": "1-0-2-0-1",
+        "dimensions": {
+          "rows": 1,
+          "columns": 3,
+          "colSize0xs": 4,
+          "colSize0sm": 4,
+          "colSize0md": 4,
+          "colSize0lg": 4,
+          "colSize0xl": 4,
+          "colSize1xs": 4,
+          "colSize1sm": 4,
+          "colSize1md": 4,
+          "colSize1lg": 4,
+          "colSize1xl": 4,
+          "colSize2xs": 4,
+          "colSize2sm": 4,
+          "colSize2md": 4,
+          "colSize2lg": 4,
+          "colSize2xl": 4
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "4hrLUZ69D-XNbL7Ev9NO1",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "4hrLUZ69D-XNbL7Ev9NO1",
+    "createdBy": "ahmedraza",
+    "updatedAt": "11/19/2023",
+    "createdAt": "11/19/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "4Yw5cKU9NIGS7KLURlUQl",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "BQS59HuTMRwjHvGyQxxav",
+          "componentType": "20039",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "columns": "3"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "64x2ErtEenQR4pn9nnkzm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "BQS59HuTMRwjHvGyQxxav",
+    "status": "ACTIVE",
+    "name": "Toggle switch",
+    "attributes": {
+      "size": "medium",
+      "name": "Toggle Switch",
+      "label": "Present",
+      "stateName": "test",
+      "layoutProperties": {
+        "toggleSwitch": { "//": "Use this class to style checkbox component." },
+        "formControlLabel": { "//": "Use this class to style checkbox label." },
+        "mainContainer": "formControlLabel",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      }
+    },
+    "icon": "FaToggleOn",
+    "group": "Form",
+    "type": "20039",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 16,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Toggle switch", "type": "20039" },
+    "events": [],
+    "path": "1-0-2-0-1-0-0",
+    "screenId": "64x2ErtEenQR4pn9nnkzm",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

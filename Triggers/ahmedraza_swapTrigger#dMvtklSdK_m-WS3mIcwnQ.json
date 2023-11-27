@@ -1,0 +1,27 @@
+{
+  "id": "I6uWNhMOEmwdcrH7CgtCm",
+  "name": "ahmedraza_swapTrigger",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "SNZQQ_PgAjFRGZBoEipsp",
+          "nextWidgetId": "jlyrjsR_jIb2jsrALGP4V",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.vj4km6fy7zaoiNtQKXFStpDSisaBQzng",
+  "_id": "dMvtklSdK_m-WS3mIcwnQ",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "vgZmHrtHAp-kCwmIQsVOX",
+  "name": "Gridtransform",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "7F3N3wQqmLhQKP0CHmq83",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.zjw8s5n2r6qUN-pwJp1d3mRr4YR2-0WH",
+  "_id": "JVZMs3x5b6yBoO0_Qu2vF",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

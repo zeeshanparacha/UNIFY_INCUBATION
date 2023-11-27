@@ -1,0 +1,25 @@
+{
+  "id": "-JAYVDAxAOjAoK2PSPTOk",
+  "gitBranchName": "master",
+  "name": "Hide Modal",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "content": "",
+          "type": "",
+          "modalId": "mu-1L70STNY8lGEZzbtdu"
+        }
+      }
+    }
+  ],
+  "csrf": "0.dgp83uhlz3aE5AhHdvTJeidQSgQmnjGn",
+  "_id": "q-9WmtyGNSHaO-mufHJwY",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}

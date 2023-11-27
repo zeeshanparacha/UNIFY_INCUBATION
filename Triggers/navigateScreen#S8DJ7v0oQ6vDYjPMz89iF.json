@@ -1,0 +1,27 @@
+{
+  "id": "LKXzqsGJXvEJQPSOrwrCT",
+  "name": "navigateScreen",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "5ikFuiLEo0co1QUFypQSe",
+          "nextWidgetId": "fvZ9bPhszyBq5weUbMCHG",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.zmp15vgzu6obWSPzowiC02NvtRHJpgj2",
+  "_id": "S8DJ7v0oQ6vDYjPMz89iF",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

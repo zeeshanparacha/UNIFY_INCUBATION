@@ -1,0 +1,27 @@
+{
+  "id": "tI-OlxbHxsrOPrDVkcgpw",
+  "name": "Dashboarad bIlawal",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "NC7K5GiQ_vFtVoDCSH6qP",
+          "nextWidgetId": "7F3N3wQqmLhQKP0CHmq83",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.ebprmdd75acLinM1N0ek_b5zNKvcAm7m",
+  "_id": "YEtgYcYSheIIIKdudO-Cw",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

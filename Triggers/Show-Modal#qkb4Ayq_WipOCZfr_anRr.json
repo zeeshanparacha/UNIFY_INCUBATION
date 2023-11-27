@@ -1,0 +1,26 @@
+{
+  "id": "66T9LQMYYLkin5vJMRaRk",
+  "gitBranchName": "master",
+  "name": "Show Modal",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
+          "content": "",
+          "type": "",
+          "modalId": "XbGq5SfROBbi0T1sIwxqI"
+        }
+      }
+    }
+  ],
+  "csrf": "0.c4kuekx779p7AbtsSRK1FylOYX8gpvy6",
+  "_id": "qkb4Ayq_WipOCZfr_anRr",
+  "updatedAt": "11/27/2023",
+  "createdAt": "11/27/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

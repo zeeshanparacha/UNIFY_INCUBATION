@@ -1,0 +1,27 @@
+{
+  "id": "1gD-9NqsuHiMcIW2n5_LY",
+  "name": "canvas.dataGrid.name",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "stateName": "saveData",
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "csrf": "0.uhtcxvnwa5hoL66HrUe2aQLID0TNHN",
+  "_id": "jCtbw1o2_DKWUKG9hFwtA",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "mubashar",
+  "updatedBy": "mubashar"
+}

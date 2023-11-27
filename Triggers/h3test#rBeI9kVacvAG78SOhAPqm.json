@@ -1,0 +1,46 @@
+{
+  "id": "9VGtYltbTLOpu9t-uPn2l",
+  "_id": "rBeI9kVacvAG78SOhAPqm",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "h3test",
+  "old_name": "h3test",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "h3test",
+          "url": "/h3test",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "655e01b1c500201edc032b00",
+          "storeType": 2,
+          "securityConfiguration": "655e01b1c500201edc032b00"
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.aapwugdld9H_4w9umg82C0MAhQpGg0U",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "hasnain",
+  "updatedBy": "hasnain"
+}

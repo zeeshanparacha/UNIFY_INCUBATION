@@ -1,0 +1,43 @@
+{
+  "id": "eW37XTfrid0SwPHiuVkdO",
+  "_id": "OkmBjJyHGoy4YzoaTFAWb",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "GetData",
+  "old_name": "GetData",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "GetBK",
+          "url": "/smsz",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "005"
+          },
+          "requestBody": [],
+          "baseURL": "655ee0cbc500201edc033504",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.oxw7ci5yjvFIEF3YheYse4Nc1zS7ydu",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

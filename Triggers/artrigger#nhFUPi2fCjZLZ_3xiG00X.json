@@ -1,0 +1,44 @@
+{
+  "id": "FDT4uPtZBPpAgQGI_-91c",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "artrigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "8",
+      "command": {
+        "type": "5",
+        "attributes": {
+          "loaderWidgetIds": [906070],
+          "messageWidgetIds": [906070],
+          "responseStateKey": "arbk",
+          "url": "/getdata",
+          "checksum": true,
+          "encryption": true,
+          "isDeviceDetails": true,
+          "loginTrigger": false,
+          "formData": false,
+          "logoutTrigger": false,
+          "headers": {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "channel_key": "001",
+            "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+            "locale": "en-ltr"
+          },
+          "requestBody": [],
+          "baseURL": "65600c04c500201edc035ff0",
+          "storeType": 2
+        },
+        "responseHandler": []
+      }
+    }
+  ],
+  "csrf": "0.awuswmv3snwWaCTqs4fPWHV1ErwZhj2R",
+  "_id": "nhFUPi2fCjZLZ_3xiG00X",
+  "updatedAt": "11/24/2023",
+  "createdAt": "11/24/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

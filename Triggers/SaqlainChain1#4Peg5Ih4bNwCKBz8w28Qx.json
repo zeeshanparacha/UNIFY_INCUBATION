@@ -1,0 +1,80 @@
+{
+  "_id": "4Peg5Ih4bNwCKBz8w28Qx",
+  "id": "l6I5fTa1Cp_jFwMCRRDbj",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "SaqlainChain1",
+  "old_name": "SaqlainChain1",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "delay": "",
+          "triggers": [
+            {
+              "createdBy": "system",
+              "updatedBy": "system",
+              "_id": "63247a318c5ded569ce08e69",
+              "id": "C9VAY5AImRfVpeNy7pz65",
+              "name": "Clear Form Data",
+              "projectType": "web",
+              "services": [
+                {
+                  "_id": "61dd1cc511bed557b4cb0c89",
+                  "type": "14",
+                  "command": {
+                    "responseHandler": [],
+                    "returns": [],
+                    "_id": "61dd1cc511bed557b4cb0c99",
+                    "attributes": {},
+                    "type": "1"
+                  }
+                }
+              ],
+              "createdAt": "11-Jan-2022",
+              "updatedAt": "11-Jan-2022",
+              "__v": 0,
+              "canRead": true
+            },
+            {
+              "id": "YJJaneEZTaQJY_frt_fjx",
+              "name": "szFirstNav",
+              "projectId": "655616226a9c9c0f149fbf8e",
+              "gitBranchName": "master",
+              "services": [
+                {
+                  "type": "1",
+                  "command": {
+                    "type": "2",
+                    "attributes": {
+                      "fromWidgetId": "Kh1vIgtmKWXppGDR8ezEK",
+                      "nextWidgetId": "02slpS5J3CiiOQj-762bg",
+                      "gridRadioValue": "Screen",
+                      "selectedObjectBindingKey": "selectedObject",
+                      "editableForm": false
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.sr4tksslpscoxBpmg_g8E28uhGYFsAbx",
+              "_id": "PDiybHtLY4vT9OI-ZOgxb",
+              "updatedAt": "11/22/2023",
+              "createdAt": "11/22/2023",
+              "createdBy": "saqlainzaidi110",
+              "updatedBy": "saqlainzaidi110"
+            }
+          ],
+          "triggerIds": ["C9VAY5AImRfVpeNy7pz65", "YJJaneEZTaQJY_frt_fjx"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.o2zz4gg33qpQ0WLH_cc4INBBY6pVP63o",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

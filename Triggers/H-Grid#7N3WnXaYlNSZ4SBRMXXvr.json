@@ -1,0 +1,26 @@
+{
+  "id": "X6uvRFEQHXb5b_vJiSly-",
+  "name": "H Grid",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "nextWidgetId": "btVQWSOMIWQcq9ywhy9hy",
+          "gridRadioValue": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.8ec56tre7prVzO7Hidnft3VROqTdkl13",
+  "_id": "7N3WnXaYlNSZ4SBRMXXvr",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "hasnain",
+  "updatedBy": "hasnain"
+}

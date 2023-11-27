@@ -1,0 +1,26 @@
+{
+  "id": "z5gylpRSt_t62-82owq7i",
+  "gitBranchName": "master",
+  "name": "jslogin",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
+          "content": "",
+          "type": "",
+          "modalId": "eqJX5Vqi-MXx7wzR0VJtb"
+        }
+      }
+    }
+  ],
+  "csrf": "0.c4kuekx779p7AbtsSRK1FylOYX8gpvy6",
+  "_id": "RrHlax0czmRxUgFgUH75D",
+  "updatedAt": "11/27/2023",
+  "createdAt": "11/27/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

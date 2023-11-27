@@ -1,0 +1,27 @@
+{
+  "id": "6g5MZzmr3qzAMZ2B6ewIM",
+  "name": "navigation_ahmed",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "o-ZcstagxsyZsa12fbndh",
+          "nextWidgetId": "xb8xVzl-g6HXlFYG91IE3",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.mapz9oycjwqa2ZzQ_I1F_zQFGBXw9wUo",
+  "_id": "2q8bmVMoVRo_CsdzZg0Js",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "ahmedraza",
+  "updatedBy": "ahmedraza"
+}

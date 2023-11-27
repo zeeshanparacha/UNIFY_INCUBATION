@@ -1,0 +1,27 @@
+{
+  "id": "LOzWknnTGujd9Ge-aXjPE",
+  "name": "swapclick",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "q_T7gpL6GCWlM0L3sfAR3",
+          "nextWidgetId": "JK--Bmo2-5XK3XteXsWVa",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.9zfwhpuqcvvVWq8NUtHoP6U2RCTIOBY",
+  "_id": "-3tSvh343aNi7CmJ8Vf0Z",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "hasnain",
+  "updatedBy": "hasnain"
+}

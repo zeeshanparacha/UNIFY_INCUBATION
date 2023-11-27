@@ -1,0 +1,263 @@
+[
+  {
+    "id": "jlyrjsR_jIb2jsrALGP4V",
+    "name": "ahmed_widget_image",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "vGOnRmyZww5eLR-hB3agp",
+          "componentType": "10001",
+          "id": "vGOnRmyZww5eLR-hB3agp",
+          "position": {
+            "i": "vGOnRmyZww5eLR-hB3agp",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "vGOnRmyZww5eLR-hB3agp",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout",
+          "isSwappable": true
+        },
+        "group": "Layout",
+        "type": "sidebarItem",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": 0,
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "gV7r6SkptzSqfB0HfnQx4",
+            "gridProps": [
+              {
+                "id": "KjoJdV8DeexkUSC2shUNa",
+                "status": "ACTIVE",
+                "name": "Image",
+                "icon": "FaImage",
+                "attributes": {
+                  "name": "Image",
+                  "contentType": false,
+                  "defaultImageAssetIdTemp": {
+                    "name": "dracaena-cinnabari.jpg",
+                    "id": "CNIz67fi824LHr0ae-pOV"
+                  },
+                  "layoutProperties": {
+                    "image": {
+                      "//": "Use this class to style image component.",
+                      "width": "50%"
+                    },
+                    "mainContainer": "image",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                  "imageAssetIdTemp": {
+                    "createdBy": "user",
+                    "_id": "65573ce76a9c9c0f149fccb4",
+                    "name": "bd1.png",
+                    "type": "png",
+                    "projectId": "655616226a9c9c0f149fbf8e",
+                    "id": "5aFPGH_pNA-vt1nLf14t2",
+                    "gitBranchName": "master",
+                    "folderType": "web",
+                    "platform": "web",
+                    "url": "web/bd1.png",
+                    "canvasUrl": "web/bd1.png",
+                    "createdAt": "2023-11-17T10:13:59.689Z",
+                    "updatedAt": "2023-11-17T10:13:59.689Z",
+                    "__v": 0,
+                    "uri": "web/bd1.png"
+                  },
+                  "imageAssetId": "5aFPGH_pNA-vt1nLf14t2",
+                  "stateName": null,
+                  "storeType": null,
+                  "useFullLink": null
+                },
+                "group": "Form",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 0,
+                "type": "20012",
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Image", "type": "20012" },
+                "events": [],
+                "path": "0-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "0-0"
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "jlyrjsR_jIb2jsrALGP4V",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "jlyrjsR_jIb2jsrALGP4V",
+    "createdBy": "ahmedraza",
+    "updatedAt": "11/23/2023",
+    "createdAt": "11/23/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "vGOnRmyZww5eLR-hB3agp",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "KjoJdV8DeexkUSC2shUNa",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout",
+      "isSwappable": true
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "jlyrjsR_jIb2jsrALGP4V",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "KjoJdV8DeexkUSC2shUNa",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "50%"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "user",
+        "_id": "65573ce76a9c9c0f149fccb4",
+        "name": "bd1.png",
+        "type": "png",
+        "projectId": "655616226a9c9c0f149fbf8e",
+        "id": "5aFPGH_pNA-vt1nLf14t2",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/bd1.png",
+        "canvasUrl": "web/bd1.png",
+        "createdAt": "2023-11-17T10:13:59.689Z",
+        "updatedAt": "2023-11-17T10:13:59.689Z",
+        "__v": 0,
+        "uri": "web/bd1.png"
+      },
+      "imageAssetId": "5aFPGH_pNA-vt1nLf14t2",
+      "stateName": null,
+      "storeType": null,
+      "useFullLink": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-0",
+    "screenId": "jlyrjsR_jIb2jsrALGP4V",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

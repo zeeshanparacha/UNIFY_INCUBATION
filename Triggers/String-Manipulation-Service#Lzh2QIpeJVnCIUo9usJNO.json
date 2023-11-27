@@ -1,0 +1,14 @@
+{
+  "id": "6qjKaFgiaX5d-WmxJiF5F",
+  "_id": "Lzh2QIpeJVnCIUo9usJNO",
+  "gitBranchName": "master",
+  "name": "String Manipulation Service",
+  "old_name": "String Manipulation Service",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [{ "type": "15", "command": { "type": "4", "attributes": {} } }],
+  "csrf": "0.qt9qt8wz8bkY6YNj2oQIzJcSEmGQ09rq",
+  "updatedAt": "11/23/2023",
+  "createdAt": "11/23/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

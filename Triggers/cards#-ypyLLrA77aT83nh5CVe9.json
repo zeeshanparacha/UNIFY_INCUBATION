@@ -1,0 +1,28 @@
+{
+  "id": "SToYOxLNchopleORDUs9q",
+  "_id": "-ypyLLrA77aT83nh5CVe9",
+  "name": "cards",
+  "old_name": "cards",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "fromWidgetId": "yoFujxNPzKmibUpqlb5k-",
+          "nextWidgetId": "UDWQPGGE2cJ27eEqF5hsR",
+          "gridRadioValue": "Grid",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.68ulvcyz30lEeRI-nT11REFNyNNofYtk",
+  "updatedAt": "11/22/2023",
+  "createdAt": "11/22/2023",
+  "createdBy": "basitahmed1199",
+  "updatedBy": "basitahmed1199"
+}
