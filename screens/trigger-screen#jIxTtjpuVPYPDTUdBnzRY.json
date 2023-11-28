@@ -74,6 +74,41 @@
                     "id": "ljalIqPOPqR-JIzfXEr69",
                     "gridProps": [
                       {
+                        "id": "OIqe9yuf_CB_hKHNWIqMk",
+                        "status": "ACTIVE",
+                        "name": "Label",
+                        "attributes": {
+                          "variant": "body1",
+                          "name": "Label",
+                          "mandatory": false,
+                          "layoutProperties": {
+                            "label": {
+                              "//": "Use this class to style label component."
+                            },
+                            "mainContainer": "label",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          },
+                          "label": "text color change",
+                          "cssClassNames": [{ "cssClassName": "subbtn " }]
+                        },
+                        "icon": "FaFont",
+                        "group": "Form",
+                        "type": "20002",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 15,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Label", "type": "20002" },
+                        "events": [],
+                        "path": "0-0-0-0-0"
+                      },
+                      {
                         "id": "ToqfwJ2KyOh21LZZsQ3vn",
                         "type": "20031",
                         "triggerName": "checkmodelbilawal",
@@ -327,6 +362,18 @@
             "sm": 12,
             "xs": 12
           },
+          "componentId": "OIqe9yuf_CB_hKHNWIqMk",
+          "componentType": "20002",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
           "componentId": "ToqfwJ2KyOh21LZZsQ3vn",
           "componentType": "20031",
           "order": 1
@@ -380,6 +427,44 @@
     "screenId": "jIxTtjpuVPYPDTUdBnzRY",
     "projectId": "655616226a9c9c0f149fbf8e",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "OIqe9yuf_CB_hKHNWIqMk",
+    "status": "ACTIVE",
+    "name": "Label",
+    "attributes": {
+      "variant": "body1",
+      "name": "Label",
+      "mandatory": false,
+      "layoutProperties": {
+        "label": { "//": "Use this class to style label component." },
+        "mainContainer": "label",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "label": "text color change",
+      "cssClassNames": [{ "cssClassName": "subbtn " }]
+    },
+    "icon": "FaFont",
+    "group": "Form",
+    "type": "20002",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 15,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Label", "type": "20002" },
+    "events": [],
+    "path": "0-0-0-0-0",
+    "screenId": "jIxTtjpuVPYPDTUdBnzRY",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },

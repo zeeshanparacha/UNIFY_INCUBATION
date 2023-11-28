@@ -77,7 +77,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "H8fiOv0zYtKjkanFOF3SS",
+                    "id": "yUUxaMpuXmE5_EfqWPJ8j",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -210,7 +210,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "DjrZUw6bpT1E8fKrjmVVO",
+                            "id": "ZL4P1hf_ulAA1gEMwwF2i",
                             "gridProps": [
                               {
                                 "id": "TsclsDajzRBr6zFkpbxfq",
@@ -277,7 +277,6 @@
                               "//": "Use this class to style grid layout component.",
                               "spacing": 0,
                               "height": "100%",
-                              "border": "1px solid red",
                               "display": "flex !important",
                               "align-items": "flex-end !important"
                             },
@@ -331,7 +330,8 @@
                       "height": "100%",
                       "background-image": "url(http://172.16.11.67:9996/web/sign_up_in_bg.jpg)",
                       "background-size": "cover",
-                      "background-repeat": "no-repeat"
+                      "background-repeat": "no-repeat",
+                      "width": "100%"
                     },
                     "mainContainer": "gridLayout"
                   },
@@ -384,7 +384,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "6fRexcCPYAjBXRkRhxoPz",
+                    "id": "u-p3HoNzmS4TBtR8QwO4m",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -548,13 +548,13 @@
                         "dimensions": {
                           "rows": 1,
                           "columns": 2,
-                          "colSize0xs": 6,
-                          "colSize0sm": 6,
+                          "colSize0xs": 12,
+                          "colSize0sm": 12,
                           "colSize0md": 6,
                           "colSize0lg": 6,
                           "colSize0xl": 6,
-                          "colSize1xs": 6,
-                          "colSize1sm": 6,
+                          "colSize1xs": 12,
+                          "colSize1sm": 12,
                           "colSize1md": 6,
                           "colSize1lg": 6,
                           "colSize1xl": 6
@@ -562,7 +562,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "Im0uStplzmClu_t9hIRf3",
+                            "id": "i5jvN7oDeyyicnJW1W9sd",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -2314,7 +2314,7 @@
                           },
                           {
                             "type": "column",
-                            "id": "tO9stWEkqjWH17WfZHL2W",
+                            "id": "nNzDe2_vWdOA4gD_tgO1n",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -3574,8 +3574,7 @@
                       "md": 12,
                       "sm": 12,
                       "xs": 12
-                    },
-                    "path": "0-1-0-0"
+                    }
                   }
                 ],
                 "allowedContainers": [
@@ -3760,7 +3759,8 @@
           "height": "100%",
           "background-image": "url(http://172.16.11.67:9996/web/sign_up_in_bg.jpg)",
           "background-size": "cover",
-          "background-repeat": "no-repeat"
+          "background-repeat": "no-repeat",
+          "width": "100%"
         },
         "mainContainer": "gridLayout"
       },
@@ -3913,7 +3913,6 @@
           "//": "Use this class to style grid layout component.",
           "spacing": 0,
           "height": "100%",
-          "border": "1px solid red",
           "display": "flex !important",
           "align-items": "flex-end !important"
         },

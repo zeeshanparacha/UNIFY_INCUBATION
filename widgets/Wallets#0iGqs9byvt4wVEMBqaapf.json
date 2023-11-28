@@ -182,9 +182,9 @@
     "version": "1.0.0",
     "gitBranchName": "master",
     "_id": "0iGqs9byvt4wVEMBqaapf",
-    "createdBy": "basitahmed1199",
-    "updatedAt": "11/22/2023",
-    "createdAt": "11/22/2023",
+    "createdBy": "bilawal.farooq",
+    "updatedAt": "11/28/2023",
+    "createdAt": "11/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -319,11 +319,11 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Label", "type": "20002" },
     "events": [],
     "path": "0-0-0-0-0",
     "screenId": "0iGqs9byvt4wVEMBqaapf",
+    "subType": "component",
     "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
