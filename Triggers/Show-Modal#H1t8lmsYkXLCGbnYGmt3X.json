@@ -1,0 +1,25 @@
+{
+  "id": "tZDaPAQKjrcVCubxn2ZGP",
+  "gitBranchName": "master",
+  "name": "Show Modal",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "content": "Welcome Ma Friends",
+          "type": "success",
+          "modalId": "EiYpoqgIIr3ihv1Ok-lEV"
+        }
+      }
+    }
+  ],
+  "csrf": "0.g0dpu1dx5xfuvSE93w-uNdTZkT00oQ2U",
+  "_id": "H1t8lmsYkXLCGbnYGmt3X",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

@@ -1,0 +1,54 @@
+{
+  "_id": "RAm01UhquHcyI5tdo_iBy",
+  "id": "TASs0vMZsRG2sNdbTnxFh",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "name": "chaintrigger",
+  "old_name": "chaintrigger",
+  "status": "ACTIVE",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "delay": "5000",
+          "triggers": [
+            {
+              "id": "9aPkrUwNCoW4E5Aj5mzf-",
+              "_id": "H7-5ffbIbP6t2t7dkuChx",
+              "gitBranchName": "master",
+              "name": "Checkthetoast",
+              "old_name": "Checkthetoast",
+              "projectId": "655616226a9c9c0f149fbf8e",
+              "services": [
+                {
+                  "type": "9",
+                  "command": {
+                    "type": "3",
+                    "attributes": {
+                      "content": "Everything is Good",
+                      "type": "success",
+                      "modalId": "Ycw9PqL02t5jMsM5VYhnt"
+                    }
+                  }
+                }
+              ],
+              "csrf": "0.g0dpu1dx5xfuvSE93w-uNdTZkT00oQ2U",
+              "updatedAt": "11/28/2023",
+              "createdAt": "11/28/2023",
+              "createdBy": "bilawal.farooq",
+              "updatedBy": "bilawal.farooq"
+            }
+          ],
+          "triggerIds": ["9aPkrUwNCoW4E5Aj5mzf-"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.g0dpu1dx5xfuvSE93w-uNdTZkT00oQ2U",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "3Z1SjeaIu3UiY7-_HBtjN",
+  "gitBranchName": "master",
+  "name": "checkmodelbilawal",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
+          "content": "",
+          "type": "",
+          "modalId": "ToqfwJ2KyOh21LZZsQ3vn"
+        }
+      }
+    }
+  ],
+  "csrf": "0.g0dpu1dx5xfuvSE93w-uNdTZkT00oQ2U",
+  "_id": "QdUuIL1Lx90gF9GnJsk95",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

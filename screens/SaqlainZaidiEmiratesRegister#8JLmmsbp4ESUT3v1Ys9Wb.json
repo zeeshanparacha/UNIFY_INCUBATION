@@ -331,7 +331,22 @@
                                                   "content": "Button",
                                                   "type": "20006"
                                                 },
-                                                "events": [],
+                                                "events": [
+                                                  {
+                                                    "triggerId": "0K-QbTsRN7WfWX8eOFltM",
+                                                    "triggerName": "szERegisterToLogin",
+                                                    "serviceType": "1",
+                                                    "attributes": {
+                                                      "fromWidgetId": "8JLmmsbp4ESUT3v1Ys9Wb",
+                                                      "nextWidgetId": "rlBn3qacjICwqzjh87xrK",
+                                                      "gridRadioValue": "Screen",
+                                                      "selectedObjectBindingKey": "selectedObject",
+                                                      "editableForm": false
+                                                    },
+                                                    "type": "2",
+                                                    "name": "On click"
+                                                  }
+                                                ],
                                                 "path": "0-0-1-0-0-1-0-0-0-0-0"
                                               }
                                             ],
@@ -2439,7 +2454,15 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Button", "type": "20006" },
-    "events": [],
+    "events": [
+      {
+        "triggerId": "0K-QbTsRN7WfWX8eOFltM",
+        "triggerName": "szERegisterToLogin",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "1"
+      }
+    ],
     "path": "0-0-1-0-0-1-0-0-0-0-0",
     "screenId": "8JLmmsbp4ESUT3v1Ys9Wb",
     "subType": "component",

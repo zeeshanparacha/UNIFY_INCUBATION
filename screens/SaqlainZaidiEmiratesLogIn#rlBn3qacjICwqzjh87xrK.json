@@ -88,7 +88,6 @@
                           "layoutProperties": {
                             "image": {
                               "//": "Use this class to style image component.",
-                              "width": "150px",
                               "height": "50px",
                               "margin-left": "35px"
                             },
@@ -120,7 +119,8 @@
                           "imageAssetId": "fPMn7MsQ-r2jqWe9e37Ko",
                           "stateName": null,
                           "storeType": null,
-                          "useFullLink": null
+                          "useFullLink": null,
+                          "cssClassNames": [{ "cssClassName": "szELogo " }]
                         },
                         "group": "Form",
                         "updatedAt": "23-Aug-2021",
@@ -308,7 +308,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "mPzFopv91ut7YHqbZnBL-",
+                            "id": "MGA3xISHvp1ej3hqQ4gZ2",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -367,14 +367,13 @@
                               "xl": 4,
                               "lg": 4,
                               "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-1-0-1-0"
+                              "sm": 12,
+                              "xs": 12
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "Q8Q-uXGkPx1ICIqlx7WS_",
+                            "id": "-DWps6cDQ-E95e2Yx4CKE",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -1929,7 +1928,22 @@
                                                                   "content": "Button",
                                                                   "type": "20006"
                                                                 },
-                                                                "events": [],
+                                                                "events": [
+                                                                  {
+                                                                    "triggerId": "b1HMvQeWH7qpaDOisqNyx",
+                                                                    "triggerName": "szELoginToRegister",
+                                                                    "serviceType": "1",
+                                                                    "attributes": {
+                                                                      "fromWidgetId": "rlBn3qacjICwqzjh87xrK",
+                                                                      "nextWidgetId": "8JLmmsbp4ESUT3v1Ys9Wb",
+                                                                      "gridRadioValue": "Screen",
+                                                                      "selectedObjectBindingKey": "selectedObject",
+                                                                      "editableForm": false
+                                                                    },
+                                                                    "type": "2",
+                                                                    "name": "On click"
+                                                                  }
+                                                                ],
                                                                 "path": "0-0-1-0-1-1-0-0-1-0-13-0-0-0-0"
                                                               }
                                                             ],
@@ -2114,14 +2128,13 @@
                               "xl": 4,
                               "lg": 4,
                               "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-1-0-1-1"
+                              "sm": 12,
+                              "xs": 12
+                            }
                           },
                           {
                             "type": "column",
-                            "id": "wsHn3wncSEseO1jyfDSJg",
+                            "id": "_1FPrUrZclPlszXhS1dGO",
                             "gridProps": [
                               {
                                 "type": "10001",
@@ -2180,10 +2193,9 @@
                               "xl": 4,
                               "lg": 4,
                               "md": 4,
-                              "sm": 4,
-                              "xs": 4
-                            },
-                            "path": "0-0-1-0-1-2"
+                              "sm": 12,
+                              "xs": 12
+                            }
                           }
                         ],
                         "path": "0-0-1-0-1",
@@ -2546,7 +2558,6 @@
       "layoutProperties": {
         "image": {
           "//": "Use this class to style image component.",
-          "width": "150px",
           "height": "50px",
           "margin-left": "35px"
         },
@@ -2578,7 +2589,8 @@
       "imageAssetId": "fPMn7MsQ-r2jqWe9e37Ko",
       "stateName": null,
       "storeType": null,
-      "useFullLink": null
+      "useFullLink": null,
+      "cssClassNames": [{ "cssClassName": "szELogo " }]
     },
     "group": "Form",
     "updatedAt": "23-Aug-2021",
@@ -2809,7 +2821,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 12, "xs": 12 }
         },
         {
           "componentId": "wDSrY491o-mg4wHm2_Sd0",
@@ -2822,7 +2834,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 12, "xs": 12 }
         },
         {
           "componentId": "hWSrPYbDs1M4hvrcdujs8",
@@ -2835,7 +2847,7 @@
             "w": null,
             "h": null
           },
-          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 }
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 12, "xs": 12 }
         }
       ],
       "label": "Header",
@@ -4615,7 +4627,15 @@
     "isLatest": true,
     "projectType": "web",
     "component": { "content": "Button", "type": "20006" },
-    "events": [],
+    "events": [
+      {
+        "triggerId": "b1HMvQeWH7qpaDOisqNyx",
+        "triggerName": "szELoginToRegister",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "1"
+      }
+    ],
     "path": "0-0-1-0-1-1-0-0-1-0-13-0-0-0-0",
     "screenId": "rlBn3qacjICwqzjh87xrK",
     "subType": "component",

@@ -1,0 +1,27 @@
+{
+  "id": "0K-QbTsRN7WfWX8eOFltM",
+  "name": "szERegisterToLogin",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "1",
+      "command": {
+        "type": "2",
+        "attributes": {
+          "fromWidgetId": "8JLmmsbp4ESUT3v1Ys9Wb",
+          "nextWidgetId": "rlBn3qacjICwqzjh87xrK",
+          "gridRadioValue": "Screen",
+          "selectedObjectBindingKey": "selectedObject",
+          "editableForm": false
+        }
+      }
+    }
+  ],
+  "csrf": "0.upun5q4hvcSHcmYu8mK8BHIrB_fW19z",
+  "_id": "lBi72xBLb9k9Cbrt24fGU",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023",
+  "createdBy": "saqlainzaidi110",
+  "updatedBy": "saqlainzaidi110"
+}

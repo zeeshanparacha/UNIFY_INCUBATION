@@ -1,16 +1,14 @@
 {
-  "id": "ZnZMB45TBYxJgP1Bkndbi",
-  "_id": "uLgtB0Tb_VkFafC9ZxqwM",
+  "id": "rKxvtW1FesBlNmrIexLVP",
   "projectId": "655616226a9c9c0f149fbf8e",
   "gitBranchName": "master",
-  "name": "checktheapi",
-  "old_name": "checktheapi",
+  "name": "checktheget",
   "status": "ACTIVE",
   "services": [
     {
       "type": "8",
       "command": {
-        "type": "1",
+        "type": "5",
         "attributes": {
           "loaderWidgetIds": [906070],
           "messageWidgetIds": [906070],
@@ -18,7 +16,7 @@
           "url": "/posts",
           "checksum": true,
           "encryption": true,
-          "isDeviceDetails": false,
+          "isDeviceDetails": true,
           "loginTrigger": false,
           "formData": false,
           "logoutTrigger": false,
@@ -38,6 +36,7 @@
     }
   ],
   "csrf": "0.g0dpu1dx5xfuvSE93w-uNdTZkT00oQ2U",
+  "_id": "quicxJDuhFDaHveV0t2yV",
   "updatedAt": "11/28/2023",
   "createdAt": "11/28/2023",
   "createdBy": "bilawal.farooq",

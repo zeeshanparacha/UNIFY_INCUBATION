@@ -285,7 +285,7 @@
                                       },
                                       {
                                         "id": "CxkGTfBy7CwexAcSxNzan",
-                                        "hideStep": false,
+                                        "hideStep": true,
                                         "status": "ACTIVE",
                                         "_id": "611a40295ac3689e4b66a0bc",
                                         "name": "DND Layout",
@@ -324,7 +324,7 @@
                                                                 "id": "lEndlW8v6iIAJl6sGhJ_4",
                                                                 "status": "ACTIVE",
                                                                 "attributes": {
-                                                                  "label": "bankIMD",
+                                                                  "label": "id",
                                                                   "variant": "contained",
                                                                   "name": "Button",
                                                                   "label-locale-key": "",
@@ -401,7 +401,7 @@
                                                                     "sm": 12,
                                                                     "xs": 12
                                                                   },
-                                                                  "label": "accountNumberHint",
+                                                                  "label": "body",
                                                                   "searchInState": true,
                                                                   "storeType": 2
                                                                 },
@@ -440,7 +440,7 @@
                                                                     "sm": 12,
                                                                     "xs": 12
                                                                   },
-                                                                  "label": "accountNumberHint",
+                                                                  "label": "body",
                                                                   "searchInState": true,
                                                                   "storeType": 2
                                                                 },
@@ -624,7 +624,7 @@
                                                                     "sm": 12,
                                                                     "xs": 12
                                                                   },
-                                                                  "label": "bankName",
+                                                                  "label": "id",
                                                                   "searchInState": true,
                                                                   "storeType": 2
                                                                 },
@@ -663,7 +663,7 @@
                                                                     "sm": 12,
                                                                     "xs": 12
                                                                   },
-                                                                  "label": "bankCode",
+                                                                  "label": "title",
                                                                   "searchInState": true,
                                                                   "storeType": 2
                                                                 },
@@ -702,7 +702,7 @@
                                                                     "sm": 12,
                                                                     "xs": 12
                                                                   },
-                                                                  "label": "accountNumberHint",
+                                                                  "label": "title",
                                                                   "searchInState": true,
                                                                   "storeType": 2
                                                                 },
@@ -941,7 +941,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "p_RB9BRjwRJtV2wT0Ulig",
+                            "id": "4_ugeRpu_JdmQDyN7xhoJ",
                             "gridProps": [
                               {
                                 "type": "20009",
@@ -975,12 +975,12 @@
                                             "sm": 12,
                                             "xs": 12
                                           },
-                                          "label": "bankName",
+                                          "label": "title",
                                           "searchInState": true,
                                           "storeType": 2
                                         },
                                         "events": [],
-                                        "path": "0-0-0-1-0-0-1-0-0",
+                                        "path": "0-0-0-1-0-0-0-0-0",
                                         "version": "1.0.0"
                                       },
                                       {
@@ -1006,12 +1006,12 @@
                                             "sm": 12,
                                             "xs": 12
                                           },
-                                          "label": "bankIMD",
+                                          "label": "body",
                                           "searchInState": true,
                                           "storeType": 2
                                         },
                                         "events": [],
-                                        "path": "0-0-0-1-0-0-1-0-1",
+                                        "path": "0-0-0-1-0-0-0-0-1",
                                         "version": "1.0.0"
                                       }
                                     ],
@@ -1148,11 +1148,42 @@
                           "direction": "row",
                           "name": "Grid layout"
                         },
-                        "events": [],
+                        "events": [
+                          {
+                            "triggerId": "rKxvtW1FesBlNmrIexLVP",
+                            "triggerName": "checktheget",
+                            "serviceType": "8",
+                            "attributes": {
+                              "loaderWidgetIds": [906070],
+                              "messageWidgetIds": [906070],
+                              "responseStateKey": "check",
+                              "url": "/posts",
+                              "checksum": true,
+                              "encryption": true,
+                              "isDeviceDetails": true,
+                              "loginTrigger": false,
+                              "formData": false,
+                              "logoutTrigger": false,
+                              "headers": {
+                                "Content-Type": "application/json",
+                                "Accept": "application/json",
+                                "channel_key": "001",
+                                "CSRF_TOKEN": "4c6e939d-db00-4697-82d8-b69bb05aef5a",
+                                "locale": "en-ltr"
+                              },
+                              "requestBody": [],
+                              "baseURL": "65604027c500201edc036396",
+                              "storeType": 2
+                            },
+                            "type": "1",
+                            "name": "On initialization"
+                          }
+                        ],
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
-                        }
+                        },
+                        "path": "0-0-0-1-0"
                       }
                     ],
                     "layoutProperties": {
@@ -1224,80 +1255,6 @@
                 ],
                 "component": { "type": "10001", "content": "Grid layout" },
                 "path": "0-0-0"
-              },
-              {
-                "id": "eqJX5Vqi-MXx7wzR0VJtb",
-                "type": "20031",
-                "triggerName": "jslogin",
-                "attributes": {
-                  "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
-                  "layoutProperties": {
-                    "xl": 12,
-                    "lg": 12,
-                    "md": 12,
-                    "sm": 12,
-                    "xs": 12
-                  }
-                },
-                "component": { "type": "20031" }
-              },
-              {
-                "id": "5LltHRyN1RkKiBOfJILVE",
-                "status": "ACTIVE",
-                "attributes": {
-                  "label": "check",
-                  "variant": "contained",
-                  "name": "Button",
-                  "label-locale-key": "",
-                  "fullWidth": true,
-                  "layoutProperties": {
-                    "button": {
-                      "//": "Use this class to style button component."
-                    },
-                    "iconButton": {
-                      "//": "Use this class to style icon button component.",
-                      "width": "20px",
-                      "height": "20px"
-                    },
-                    "inputProps": {
-                      "//": "Use this class to style button element."
-                    },
-                    "mainContainer": "button",
-                    "xl": 12,
-                    "lg": 12,
-                    "md": 12,
-                    "sm": 12,
-                    "xs": 12
-                  }
-                },
-                "name": "Button",
-                "icon": "FaBimobject",
-                "group": "Form",
-                "type": "20006",
-                "Documentation": "<div>components 12344</div>",
-                "updatedAt": "23-Aug-2021",
-                "createdAt": "23-Aug-2021",
-                "order": 1,
-                "version": "1.0.0",
-                "isLatest": true,
-                "projectType": "web",
-                "component": { "content": "Button", "type": "20006" },
-                "events": [
-                  {
-                    "triggerId": "z5gylpRSt_t62-82owq7i",
-                    "triggerName": "jslogin",
-                    "serviceType": "9",
-                    "attributes": {
-                      "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
-                      "content": "",
-                      "type": "",
-                      "modalId": "eqJX5Vqi-MXx7wzR0VJtb"
-                    },
-                    "type": "2",
-                    "name": "On click"
-                  }
-                ],
-                "path": "0-0-1"
               }
             ],
             "layoutProperties": {
@@ -1319,8 +1276,8 @@
     "gitBranchName": "master",
     "_id": "avOVNU7ugii2dTH7YGDsx",
     "createdBy": "bilawal.farooq",
-    "updatedAt": "11/27/2023",
-    "createdAt": "11/27/2023",
+    "updatedAt": "11/28/2023",
+    "createdAt": "11/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -1347,30 +1304,6 @@
             "sm": 12,
             "xs": 12
           }
-        },
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "eqJX5Vqi-MXx7wzR0VJtb",
-          "componentType": "20031",
-          "order": 1
-        },
-        {
-          "layoutProperties": {
-            "xl": 12,
-            "lg": 12,
-            "md": 12,
-            "sm": 12,
-            "xs": 12
-          },
-          "componentId": "5LltHRyN1RkKiBOfJILVE",
-          "componentType": "20006",
-          "order": 1
         }
       ],
       "label": "Header",
@@ -1888,7 +1821,7 @@
     "id": "lEndlW8v6iIAJl6sGhJ_4",
     "status": "ACTIVE",
     "attributes": {
-      "label": "bankIMD",
+      "label": "id",
       "variant": "contained",
       "name": "Button",
       "label-locale-key": "",
@@ -1948,7 +1881,7 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "accountNumberHint",
+      "label": "body",
       "searchInState": true,
       "storeType": 2
     },
@@ -1987,7 +1920,7 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "accountNumberHint",
+      "label": "body",
       "searchInState": true,
       "storeType": 2
     },
@@ -2173,7 +2106,7 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "bankName",
+      "label": "id",
       "searchInState": true,
       "storeType": 2
     },
@@ -2212,7 +2145,7 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "bankCode",
+      "label": "title",
       "searchInState": true,
       "storeType": 2
     },
@@ -2251,7 +2184,7 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "accountNumberHint",
+      "label": "title",
       "searchInState": true,
       "storeType": 2
     },
@@ -2317,7 +2250,14 @@
       "name": "Grid layout"
     },
     "layout": null,
-    "events": [],
+    "events": [
+      {
+        "triggerId": "rKxvtW1FesBlNmrIexLVP",
+        "triggerName": "checktheget",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
     "subType": "component",
     "screenId": "avOVNU7ugii2dTH7YGDsx",
     "projectId": "655616226a9c9c0f149fbf8e",
@@ -2406,12 +2346,12 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "bankName",
+      "label": "title",
       "searchInState": true,
       "storeType": 2
     },
     "events": [],
-    "path": "0-0-0-1-0-0-1-0-0",
+    "path": "0-0-0-1-0-0-0-0-0",
     "version": "1.0.0",
     "screenId": "avOVNU7ugii2dTH7YGDsx",
     "subType": "component",
@@ -2437,12 +2377,12 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "bankIMD",
+      "label": "body",
       "searchInState": true,
       "storeType": 2
     },
     "events": [],
-    "path": "0-0-0-1-0-0-1-0-1",
+    "path": "0-0-0-1-0-0-0-0-1",
     "version": "1.0.0",
     "screenId": "avOVNU7ugii2dTH7YGDsx",
     "subType": "component",
@@ -2491,75 +2431,6 @@
     "path": "0-0-0-1-0-0-0-1-0",
     "screenId": "avOVNU7ugii2dTH7YGDsx",
     "subType": "component",
-    "projectId": "655616226a9c9c0f149fbf8e",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "eqJX5Vqi-MXx7wzR0VJtb",
-    "type": "20031",
-    "triggerName": "jslogin",
-    "attributes": {
-      "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
-      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
-    },
-    "component": { "type": "20031" },
-    "screenId": "avOVNU7ugii2dTH7YGDsx",
-    "subType": "component",
-    "projectId": "655616226a9c9c0f149fbf8e",
-    "version": "1.0.0",
-    "gitBranchName": "master",
-    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
-  },
-  {
-    "id": "5LltHRyN1RkKiBOfJILVE",
-    "status": "ACTIVE",
-    "attributes": {
-      "label": "check",
-      "variant": "contained",
-      "name": "Button",
-      "label-locale-key": "",
-      "fullWidth": true,
-      "layoutProperties": {
-        "button": { "//": "Use this class to style button component." },
-        "iconButton": {
-          "//": "Use this class to style icon button component.",
-          "width": "20px",
-          "height": "20px"
-        },
-        "inputProps": { "//": "Use this class to style button element." },
-        "mainContainer": "button",
-        "xl": 12,
-        "lg": 12,
-        "md": 12,
-        "sm": 12,
-        "xs": 12
-      }
-    },
-    "name": "Button",
-    "icon": "FaBimobject",
-    "group": "Form",
-    "type": "20006",
-    "Documentation": "<div>components 12344</div>",
-    "updatedAt": "23-Aug-2021",
-    "createdAt": "23-Aug-2021",
-    "order": 1,
-    "version": "1.0.0",
-    "isLatest": true,
-    "projectType": "web",
-    "subType": "component",
-    "component": { "content": "Button", "type": "20006" },
-    "events": [
-      {
-        "triggerId": "z5gylpRSt_t62-82owq7i",
-        "triggerName": "jslogin",
-        "name": "On click",
-        "type": "2",
-        "serviceType": "9"
-      }
-    ],
-    "path": "0-0-1",
-    "screenId": "avOVNU7ugii2dTH7YGDsx",
     "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

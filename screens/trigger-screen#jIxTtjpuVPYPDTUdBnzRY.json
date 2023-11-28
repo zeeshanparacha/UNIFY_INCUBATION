@@ -1,0 +1,455 @@
+[
+  {
+    "id": "jIxTtjpuVPYPDTUdBnzRY",
+    "name": "trigger screen",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "fOHbkAtM0pOx4lL--t1gY",
+          "componentType": "10001",
+          "id": "fOHbkAtM0pOx4lL--t1gY",
+          "position": {
+            "i": "fOHbkAtM0pOx4lL--t1gY",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "id": "fOHbkAtM0pOx4lL--t1gY",
+        "status": "ACTIVE",
+        "_id": "610134a1d1f5e860b1e8c751",
+        "name": "Grid layout",
+        "icon": "FaGripHorizontal",
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "padding": "5px",
+              "spacing": 0
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "group": "Layout",
+        "type": "sidebarItem",
+        "updatedAt": "23-Sep-2021",
+        "Documentation": "<div>\n<table style=\"border-collapse: collapse; width: 99.8899%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 48.4024%;\">1</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">2</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">43</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">6</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n<tr>\n<td style=\"width: 48.4024%;\">7</td>\n<td style=\"width: 48.4024%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\nWrite your Docu7mentationtestsdfasd</div>",
+        "createdAt": "24-Aug-2021",
+        "events": [],
+        "order": 1,
+        "version": "1.0.0",
+        "isLatest": true,
+        "projectType": "web",
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "component": { "content": "Grid layout", "type": "10001" },
+        "path": 0,
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "ej-KJaWgHoCRTwRAWLIB8",
+            "gridProps": [
+              {
+                "type": "10001",
+                "name": "Grid layout",
+                "id": "BEi5lIwVNB8XX0MvsibqP",
+                "gridProps": [
+                  {
+                    "type": "column",
+                    "id": "ljalIqPOPqR-JIzfXEr69",
+                    "gridProps": [
+                      {
+                        "id": "ToqfwJ2KyOh21LZZsQ3vn",
+                        "type": "20031",
+                        "triggerName": "checkmodelbilawal",
+                        "attributes": {
+                          "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
+                          "layoutProperties": {
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "component": { "type": "20031" }
+                      },
+                      {
+                        "id": "gNp3ewY5HBYLk7APHBMch",
+                        "status": "ACTIVE",
+                        "attributes": {
+                          "label": "Model",
+                          "variant": "contained",
+                          "name": "Button",
+                          "label-locale-key": "",
+                          "fullWidth": true,
+                          "layoutProperties": {
+                            "button": {
+                              "//": "Use this class to style button component."
+                            },
+                            "iconButton": {
+                              "//": "Use this class to style icon button component.",
+                              "width": "20px",
+                              "height": "20px"
+                            },
+                            "inputProps": {
+                              "//": "Use this class to style button element."
+                            },
+                            "mainContainer": "button",
+                            "xl": 12,
+                            "lg": 12,
+                            "md": 12,
+                            "sm": 12,
+                            "xs": 12
+                          }
+                        },
+                        "name": "Button",
+                        "icon": "FaBimobject",
+                        "group": "Form",
+                        "type": "20006",
+                        "Documentation": "<div>components 12344</div>",
+                        "updatedAt": "23-Aug-2021",
+                        "createdAt": "23-Aug-2021",
+                        "order": 1,
+                        "version": "1.0.0",
+                        "isLatest": true,
+                        "projectType": "web",
+                        "component": { "content": "Button", "type": "20006" },
+                        "events": [
+                          {
+                            "triggerId": "3Z1SjeaIu3UiY7-_HBtjN",
+                            "triggerName": "checkmodelbilawal",
+                            "serviceType": "9",
+                            "attributes": {
+                              "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
+                              "content": "",
+                              "type": "",
+                              "modalId": "ToqfwJ2KyOh21LZZsQ3vn"
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
+                        "path": "0-0-0-0-0"
+                      }
+                    ],
+                    "layoutProperties": {
+                      "xl": 12,
+                      "lg": 12,
+                      "md": 12,
+                      "sm": 12,
+                      "xs": 12
+                    }
+                  }
+                ],
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "attributes": {
+                  "gridProps": [],
+                  "label": "Header",
+                  "layoutProperties": {
+                    "gridLayout": {
+                      "//": "Use this class to style grid layout component.",
+                      "padding": "5px",
+                      "spacing": 0
+                    },
+                    "mainContainer": "gridLayout"
+                  },
+                  "layoutProps": {
+                    "direction": "row",
+                    "justifyContent": "flex-start",
+                    "alignItems": "flex-start"
+                  },
+                  "direction": "row",
+                  "name": "Grid layout"
+                },
+                "events": [
+                  {
+                    "triggerId": "C9VAY5AImRfafff65",
+                    "triggerName": "Clear validations",
+                    "serviceType": "14",
+                    "attributes": {},
+                    "type": "1",
+                    "name": "On initialization"
+                  },
+                  {
+                    "triggerId": "TASs0vMZsRG2sNdbTnxFh",
+                    "triggerName": "chaintrigger",
+                    "serviceType": "2",
+                    "attributes": {
+                      "delay": "5000",
+                      "triggers": [
+                        {
+                          "id": "9aPkrUwNCoW4E5Aj5mzf-",
+                          "_id": "H7-5ffbIbP6t2t7dkuChx",
+                          "gitBranchName": "master",
+                          "name": "Checkthetoast",
+                          "old_name": "Checkthetoast",
+                          "projectId": "655616226a9c9c0f149fbf8e",
+                          "services": [
+                            {
+                              "type": "9",
+                              "command": {
+                                "type": "3",
+                                "attributes": {
+                                  "content": "Everything is Good",
+                                  "type": "success",
+                                  "modalId": "Ycw9PqL02t5jMsM5VYhnt"
+                                }
+                              }
+                            }
+                          ],
+                          "csrf": "0.g0dpu1dx5xfuvSE93w-uNdTZkT00oQ2U",
+                          "updatedAt": "11/28/2023",
+                          "createdAt": "11/28/2023",
+                          "createdBy": "bilawal.farooq",
+                          "updatedBy": "bilawal.farooq"
+                        }
+                      ],
+                      "triggerIds": ["9aPkrUwNCoW4E5Aj5mzf-"]
+                    },
+                    "type": "1",
+                    "name": "On initialization"
+                  }
+                ],
+                "component": { "type": "10001", "content": "Grid layout" },
+                "path": "0-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            },
+            "path": "0-0"
+          }
+        ],
+        "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+      }
+    ],
+    "events": [],
+    "subType": "screen",
+    "screenId": "jIxTtjpuVPYPDTUdBnzRY",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "jIxTtjpuVPYPDTUdBnzRY",
+    "createdBy": "bilawal.farooq",
+    "updatedAt": "11/28/2023",
+    "createdAt": "11/28/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "fOHbkAtM0pOx4lL--t1gY",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "BEi5lIwVNB8XX0MvsibqP",
+          "componentType": "10001",
+          "id": "BEi5lIwVNB8XX0MvsibqP",
+          "position": {
+            "i": "BEi5lIwVNB8XX0MvsibqP",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          }
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "jIxTtjpuVPYPDTUdBnzRY",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "BEi5lIwVNB8XX0MvsibqP",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "ToqfwJ2KyOh21LZZsQ3vn",
+          "componentType": "20031",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "gNp3ewY5HBYLk7APHBMch",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [
+      {
+        "triggerId": "C9VAY5AImRfafff65",
+        "triggerName": "Clear validations",
+        "name": "On initialization",
+        "type": "1"
+      },
+      {
+        "triggerId": "TASs0vMZsRG2sNdbTnxFh",
+        "triggerName": "chaintrigger",
+        "name": "On initialization",
+        "type": "1"
+      }
+    ],
+    "subType": "component",
+    "screenId": "jIxTtjpuVPYPDTUdBnzRY",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ToqfwJ2KyOh21LZZsQ3vn",
+    "type": "20031",
+    "triggerName": "checkmodelbilawal",
+    "attributes": {
+      "widgetId": "EzuyNmfMLtCKzRrO7wnqC",
+      "layoutProperties": { "xl": 12, "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+    },
+    "component": { "type": "20031" },
+    "screenId": "jIxTtjpuVPYPDTUdBnzRY",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "gNp3ewY5HBYLk7APHBMch",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Model",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "iconButton": {
+          "//": "Use this class to style icon button component.",
+          "width": "20px",
+          "height": "20px"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "3Z1SjeaIu3UiY7-_HBtjN",
+        "triggerName": "checkmodelbilawal",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "9"
+      }
+    ],
+    "path": "0-0-0-0-0",
+    "screenId": "jIxTtjpuVPYPDTUdBnzRY",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

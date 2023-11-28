@@ -1,0 +1,25 @@
+{
+  "id": "_Rj_N6htPvSv7ZJTj79m7",
+  "gitBranchName": "master",
+  "name": "delayedtheroor",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "services": [
+    {
+      "type": "9",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "content": "Welcomesdsadas",
+          "type": "success",
+          "modalId": "-MOac4_qxTaF-pNyuaR0J"
+        }
+      }
+    }
+  ],
+  "csrf": "0.g0dpu1dx5xfuvSE93w-uNdTZkT00oQ2U",
+  "_id": "bDx0-3Dv-y2lnmN_t_H7m",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}
