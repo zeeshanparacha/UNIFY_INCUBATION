@@ -909,14 +909,164 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "MyoCm6vzZERBJUdKut6kX",
+                                    "id": "HrAR1Xc15Pvu4UDjODOMh",
+                                    "gridProps": [
+                                      {
+                                        "id": "6BEe9X7CpYpltUatV8iYX",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "Delete all items",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "iconButton": {
+                                              "//": "Use this class to style icon button component.",
+                                              "width": "20px",
+                                              "height": "20px"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          }
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "GL5ZO_nbk14T9eTBQ6wSX",
+                                            "triggerName": "deleteall",
+                                            "serviceType": "11",
+                                            "attributes": {
+                                              "stateName": "SaveData",
+                                              "storeType": 2,
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": ""
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-1-0-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    }
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "ZVvJyvfHdfQeym0_Gmpoq",
+                                    "gridProps": [
+                                      {
+                                        "id": "GmsM1CCxI7-P1TVnKPbnD",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "Delete Selected",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "iconButton": {
+                                              "//": "Use this class to style icon button component.",
+                                              "width": "20px",
+                                              "height": "20px"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 4,
+                                            "lg": 4,
+                                            "md": 4,
+                                            "sm": 4,
+                                            "xs": 4
+                                          }
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "qWh2RMAUh4NGltn-3bfc_",
+                                            "triggerName": "selecteddelete",
+                                            "serviceType": "11",
+                                            "attributes": {
+                                              "stateName": "SaveData",
+                                              "storeType": "",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": ""
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-1-0-0-1-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    }
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "vrrvZ95pMW9XVMBwPlyCf",
                                     "gridProps": [],
                                     "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
                                     }
                                   }
                                 ],
@@ -944,13 +1094,25 @@
                                     "alignItems": "flex-start"
                                   },
                                   "direction": "row",
-                                  "name": "Grid layout"
+                                  "name": "Grid layout",
+                                  "columns": "3"
                                 },
                                 "events": [],
                                 "component": {
                                   "type": "10001",
                                   "content": "Grid layout"
-                                }
+                                },
+                                "path": "0-0-0-0-1-0-0",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12
+                                },
+                                "readOnly": false
                               },
                               {
                                 "type": "10001",
@@ -959,14 +1121,38 @@
                                 "gridProps": [
                                   {
                                     "type": "column",
-                                    "id": "mVL7JI_j8ToNAg3L3FA-9",
+                                    "id": "F_m6X4Mpbp-oXco7nhX80",
                                     "gridProps": [],
                                     "layoutProperties": {
-                                      "xl": 12,
-                                      "lg": 12,
-                                      "md": 12,
-                                      "sm": 12,
-                                      "xs": 12
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    }
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "FHsCeVx_2w4wSsYbOgRJX",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
+                                    }
+                                  },
+                                  {
+                                    "type": "column",
+                                    "id": "j-tcha8XqB_ea8jZhmJpX",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "xl": 4,
+                                      "lg": 4,
+                                      "md": 4,
+                                      "sm": 4,
+                                      "xs": 4
                                     }
                                   }
                                 ],
@@ -994,13 +1180,25 @@
                                     "alignItems": "flex-start"
                                   },
                                   "direction": "row",
-                                  "name": "Grid layout"
+                                  "name": "Grid layout",
+                                  "columns": "3"
                                 },
                                 "events": [],
                                 "component": {
                                   "type": "10001",
                                   "content": "Grid layout"
-                                }
+                                },
+                                "path": "0-0-0-0-1-0-1",
+                                "dimensions": {
+                                  "rows": 1,
+                                  "columns": 1,
+                                  "colSize0xs": 12,
+                                  "colSize0sm": 12,
+                                  "colSize0md": 12,
+                                  "colSize0lg": 12,
+                                  "colSize0xl": 12
+                                },
+                                "readOnly": false
                               }
                             ],
                             "layoutProperties": {
@@ -1618,7 +1816,7 @@
                         "gridProps": [
                           {
                             "type": "column",
-                            "id": "wl1gu0JTkrXvlS1N1CGLu",
+                            "id": "BCkxMIgnYrvHZ8zFbKpGK",
                             "gridProps": [
                               {
                                 "id": "QsYpKeS2qcpJRUGe4x2ss",
@@ -1728,6 +1926,16 @@
                                         "cssClassNames": []
                                       },
                                       "cssValues": [""]
+                                    },
+                                    {
+                                      "typeTemp": {
+                                        "name": "Icon Button",
+                                        "type": "iconButton"
+                                      },
+                                      "field": "",
+                                      "rowId": "id",
+                                      "iconButtons": [],
+                                      "type": "iconButton"
                                     }
                                   ],
                                   "rowDefinition": [],
@@ -1792,7 +2000,22 @@
                           "direction": "row",
                           "name": "Grid layout"
                         },
-                        "events": [],
+                        "events": [
+                          {
+                            "triggerId": "qWh2RMAUh4NGltn-3bfc_",
+                            "triggerName": "selecteddelete",
+                            "serviceType": "11",
+                            "attributes": {
+                              "stateName": "SaveData",
+                              "storeType": "",
+                              "selectedObjectBindingKey": "selectedObject",
+                              "dataType": "",
+                              "sourceBindingKey": ""
+                            },
+                            "type": "2",
+                            "name": "On click"
+                          }
+                        ],
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
@@ -2888,7 +3111,20 @@
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
-      "gridProps": [],
+      "gridProps": [
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "6BEe9X7CpYpltUatV8iYX",
+          "componentType": "20006",
+          "order": 1
+        },
+        {
+          "layoutProperties": { "xl": 4, "lg": 4, "md": 4, "sm": 4, "xs": 4 },
+          "componentId": "GmsM1CCxI7-P1TVnKPbnD",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
       "label": "Header",
       "layoutProperties": {
         "gridLayout": {
@@ -2904,7 +3140,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "columns": "3"
     },
     "layout": null,
     "events": [],
@@ -2912,6 +3149,112 @@
     "screenId": "yo__eXdGINC71BsJrc1jt",
     "projectId": "655616226a9c9c0f149fbf8e",
     "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "6BEe9X7CpYpltUatV8iYX",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Delete all items",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "iconButton": {
+          "//": "Use this class to style icon button component.",
+          "width": "20px",
+          "height": "20px"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "GL5ZO_nbk14T9eTBQ6wSX",
+        "triggerName": "deleteall",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-0-1-0-0-0-0",
+    "screenId": "yo__eXdGINC71BsJrc1jt",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "GmsM1CCxI7-P1TVnKPbnD",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Delete Selected",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "iconButton": {
+          "//": "Use this class to style icon button component.",
+          "width": "20px",
+          "height": "20px"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 4,
+        "lg": 4,
+        "md": 4,
+        "sm": 4,
+        "xs": 4
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "qWh2RMAUh4NGltn-3bfc_",
+        "triggerName": "selecteddelete",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-0-1-0-0-1-0",
+    "screenId": "yo__eXdGINC71BsJrc1jt",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
@@ -2936,7 +3279,8 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout"
+      "name": "Grid layout",
+      "columns": "3"
     },
     "layout": null,
     "events": [],
@@ -3128,7 +3472,6 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
@@ -3141,6 +3484,7 @@
     ],
     "path": "0-0-0-0-1-1-1-0-0",
     "screenId": "yo__eXdGINC71BsJrc1jt",
+    "subType": "component",
     "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3352,7 +3696,6 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
@@ -3365,6 +3708,7 @@
     ],
     "path": "0-0-0-0-1-2-1-0-0",
     "screenId": "yo__eXdGINC71BsJrc1jt",
+    "subType": "component",
     "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3405,7 +3749,6 @@
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "subType": "component",
     "component": { "content": "Button", "type": "20006" },
     "events": [
       {
@@ -3418,6 +3761,7 @@
     ],
     "path": "0-0-0-0-1-2-1-0-0",
     "screenId": "yo__eXdGINC71BsJrc1jt",
+    "subType": "component",
     "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
@@ -3459,7 +3803,14 @@
       "name": "Grid layout"
     },
     "layout": null,
-    "events": [],
+    "events": [
+      {
+        "triggerId": "qWh2RMAUh4NGltn-3bfc_",
+        "triggerName": "selecteddelete",
+        "name": "On click",
+        "type": "2"
+      }
+    ],
     "subType": "component",
     "screenId": "yo__eXdGINC71BsJrc1jt",
     "projectId": "655616226a9c9c0f149fbf8e",
@@ -3555,6 +3906,13 @@
           "values": [""],
           "cssConditional": { "bindingKey": "", "cssClassNames": [] },
           "cssValues": [""]
+        },
+        {
+          "typeTemp": { "name": "Icon Button", "type": "iconButton" },
+          "field": "",
+          "rowId": "id",
+          "iconButtons": [],
+          "type": "iconButton"
         }
       ],
       "rowDefinition": [],
