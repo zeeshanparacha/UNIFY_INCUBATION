@@ -900,7 +900,7 @@
                                                   "label": "",
                                                   "name": "Email",
                                                   "label-locale-key": "",
-                                                  "maxLength": 20,
+                                                  "maxLength": "30",
                                                   "type": "text",
                                                   "variant": "outlined",
                                                   "value": "",
@@ -4761,8 +4761,8 @@
     "gitBranchName": "master",
     "_id": "Pd5WfpefABVcMV8x9txVk",
     "createdBy": "basitahmed1199",
-    "updatedAt": "11/27/2023",
-    "createdAt": "11/27/2023",
+    "updatedAt": "11/28/2023",
+    "createdAt": "11/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5860,7 +5860,7 @@
       "label": "",
       "name": "Email",
       "label-locale-key": "",
-      "maxLength": 20,
+      "maxLength": "30",
       "type": "text",
       "variant": "outlined",
       "value": "",
