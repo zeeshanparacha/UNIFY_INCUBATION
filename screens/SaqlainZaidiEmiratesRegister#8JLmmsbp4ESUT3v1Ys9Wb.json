@@ -36,8 +36,7 @@
               "padding": "0px",
               "spacing": 0,
               "margin": "0px",
-              "overflow": "auto",
-              "display": "grid"
+              "overflow": "auto"
             },
             "mainContainer": "gridLayout"
           },
@@ -61,20 +60,19 @@
         "projectType": "web",
         "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
         "component": { "content": "Grid layout", "type": "10001" },
-        "path": "0",
+        "path": 0,
         "gridProps": [
           {
             "type": "column",
-            "id": "LLfJfFMYDYsHoWcLH-R-L",
+            "id": "CNdHJxANSBet1-qHbIc7G",
             "gridProps": [
               {
                 "type": "10001",
-                "name": "Grid layout",
                 "id": "ymFoiN_Sv525twPbuWx6y",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "yM8tacZ9RYOX-lm_XKvKp",
+                    "id": "7IDPYpN_vo_Zinbwi_hHm",
                     "gridProps": [
                       {
                         "id": "htg08Wx7RiL8218Nnt2hL",
@@ -147,13 +145,8 @@
                     }
                   }
                 ],
-                "allowedContainers": [
-                  "10001",
-                  "20030",
-                  "noLayout",
-                  "20010",
-                  "widget"
-                ],
+                "path": "0-0-0",
+                "events": [],
                 "attributes": {
                   "gridProps": [],
                   "label": "Header",
@@ -162,10 +155,7 @@
                       "//": "Use this class to style grid layout component.",
                       "spacing": 0,
                       "background": "#fff",
-                      "padding": "13px",
-                      "display": "grid",
-                      "position": "sticky",
-                      "top": "0 "
+                      "padding": "13px"
                     },
                     "mainContainer": "gridLayout"
                   },
@@ -177,19 +167,15 @@
                   "direction": "row",
                   "name": "Grid layout"
                 },
-                "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
-                "path": "0-0-0",
-                "dimensions": {
-                  "rows": 1,
-                  "columns": 1,
-                  "colSize0xs": 12,
-                  "colSize0sm": 12,
-                  "colSize0md": 12,
-                  "colSize0lg": 12,
-                  "colSize0xl": 12
-                },
-                "readOnly": true
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "Grid layout"
               },
               {
                 "type": "10001",
@@ -197,7 +183,7 @@
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "9pcag1m1GA-XVmlLDiI3H",
+                    "id": "ylMqDU0A6MuEKBXSxobxa",
                     "gridProps": [
                       {
                         "type": "10001",
@@ -267,7 +253,8 @@
                               "md": 4,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "0-0-1-0-0-0"
                           },
                           {
                             "type": "column",
@@ -416,7 +403,7 @@
                                                     "label": {
                                                       "//": "Use this class to style label component.",
                                                       "font-size": "32px",
-                                                      "color": "#3B3B3B",
+                                                      "color": "#ABABAB",
                                                       "font-weight": "100"
                                                     },
                                                     "mainContainer": "label",
@@ -630,7 +617,8 @@
                                                           "layoutProperties": {
                                                             "label": {
                                                               "//": "Use this class to style label component.",
-                                                              "font-size": "17px"
+                                                              "font-size": "17px",
+                                                              "color": "#ABABAB"
                                                             },
                                                             "mainContainer": "label",
                                                             "xl": 12,
@@ -639,7 +627,8 @@
                                                             "sm": 12,
                                                             "xs": 12
                                                           },
-                                                          "label": "If this is your first time to login, then click 'Activate' and proceed. Otherwise, login using your credentials"
+                                                          "label": "If this is your first time to login, then click 'Activate' and proceed. Otherwise, login using your credentials",
+                                                          "color": "primary"
                                                         },
                                                         "icon": "FaFont",
                                                         "group": "Form",
@@ -846,7 +835,8 @@
                                                                           "layoutProperties": {
                                                                             "label": {
                                                                               "//": "Use this class to style label component.",
-                                                                              "font-size": "17px"
+                                                                              "font-size": "17px",
+                                                                              "color": "#ABABAB"
                                                                             },
                                                                             "mainContainer": "label",
                                                                             "xl": 12,
@@ -855,7 +845,8 @@
                                                                             "sm": 12,
                                                                             "xs": 12
                                                                           },
-                                                                          "label": "Account/debit/credit card number"
+                                                                          "label": "Account/debit/credit card number",
+                                                                          "color": "primary"
                                                                         },
                                                                         "events": [],
                                                                         "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-0-0-0",
@@ -884,7 +875,8 @@
                                                                               "padding": "10px",
                                                                               "background": "#FFFFFF",
                                                                               "borderRadius": "7px",
-                                                                              "width": "95%"
+                                                                              "width": "95%",
+                                                                              "box-shadow": "rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset"
                                                                             },
                                                                             "inputProps": {
                                                                               "//": "Use this class to style  text field element."
@@ -932,7 +924,8 @@
                                                                           "layoutProperties": {
                                                                             "label": {
                                                                               "//": "Use this class to style label component.",
-                                                                              "font-size": "15px"
+                                                                              "font-size": "15px",
+                                                                              "color": "#ABABAB"
                                                                             },
                                                                             "mainContainer": "label",
                                                                             "xl": 12,
@@ -941,7 +934,8 @@
                                                                             "sm": 12,
                                                                             "xs": 12
                                                                           },
-                                                                          "label": " Enter your account or debit or credit card number"
+                                                                          "label": " Enter your account or debit or credit card number",
+                                                                          "color": "primary"
                                                                         },
                                                                         "icon": "FaFont",
                                                                         "group": "Form",
@@ -1139,7 +1133,8 @@
                                                                           "layoutProperties": {
                                                                             "label": {
                                                                               "//": "Use this class to style label component.",
-                                                                              "font-size": "17px"
+                                                                              "font-size": "17px",
+                                                                              "color": "#ABABAB"
                                                                             },
                                                                             "mainContainer": "label",
                                                                             "xl": 12,
@@ -1148,7 +1143,8 @@
                                                                             "sm": 12,
                                                                             "xs": 12
                                                                           },
-                                                                          "label": "Date of birth"
+                                                                          "label": "Date of birth",
+                                                                          "color": "primary"
                                                                         },
                                                                         "icon": "FaFont",
                                                                         "group": "Form",
@@ -1193,7 +1189,8 @@
                                                                               "padding": "10px",
                                                                               "background": "#FFFFFF",
                                                                               "borderRadius": "7px",
-                                                                              "width": "95%"
+                                                                              "width": "95%",
+                                                                              "box-shadow": "rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset"
                                                                             },
                                                                             "mainContainer": "dateCalendar",
                                                                             "xl": 12,
@@ -1226,7 +1223,8 @@
                                                                           "layoutProperties": {
                                                                             "label": {
                                                                               "//": "Use this class to style label component.",
-                                                                              "font-size": "15px"
+                                                                              "font-size": "15px",
+                                                                              "color": "#ABABAB"
                                                                             },
                                                                             "mainContainer": "label",
                                                                             "xl": 12,
@@ -1235,7 +1233,8 @@
                                                                             "sm": 12,
                                                                             "xs": 12
                                                                           },
-                                                                          "label": "Please enter a valid date of birth"
+                                                                          "label": "Please enter a valid date of birth",
+                                                                          "color": "primary"
                                                                         },
                                                                         "icon": "FaFont",
                                                                         "group": "Form",
@@ -1331,7 +1330,8 @@
                                                                               "md": 12,
                                                                               "sm": 12,
                                                                               "xs": 12
-                                                                            }
+                                                                            },
+                                                                            "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-3-0-0-0"
                                                                           }
                                                                         ],
                                                                         "allowedContainers": [
@@ -1364,7 +1364,8 @@
                                                                         "component": {
                                                                           "type": "10001",
                                                                           "content": "Grid layout"
-                                                                        }
+                                                                        },
+                                                                        "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-3-0-0"
                                                                       }
                                                                     ],
                                                                     "layoutProperties": {
@@ -1373,7 +1374,8 @@
                                                                       "md": 12,
                                                                       "sm": 12,
                                                                       "xs": 12
-                                                                    }
+                                                                    },
+                                                                    "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-3-0"
                                                                   }
                                                                 ],
                                                                 "allowedContainers": [
@@ -1406,7 +1408,8 @@
                                                                 "component": {
                                                                   "type": "10001",
                                                                   "content": "Grid layout"
-                                                                }
+                                                                },
+                                                                "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-3"
                                                               },
                                                               {
                                                                 "type": "10001",
@@ -1466,10 +1469,10 @@
                                                                       "sm": 12,
                                                                       "xs": 12
                                                                     },
-                                                                    "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-3-0"
+                                                                    "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-4-0"
                                                                   }
                                                                 ],
-                                                                "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-3",
+                                                                "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-4",
                                                                 "events": [],
                                                                 "attributes": {
                                                                   "gridProps": [],
@@ -1692,7 +1695,8 @@
                               "md": 4,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "0-0-1-0-0-1"
                           },
                           {
                             "type": "column",
@@ -1757,7 +1761,8 @@
                               "md": 4,
                               "sm": 12,
                               "xs": 12
-                            }
+                            },
+                            "path": "0-0-1-0-0-2"
                           }
                         ],
                         "allowedContainers": [
@@ -1856,7 +1861,18 @@
                   "20010",
                   "widget"
                 ],
-                "name": "Grid layout"
+                "name": "Grid layout",
+                "dimensions": {
+                  "rows": 1,
+                  "columns": 1,
+                  "colSize0xs": 12,
+                  "colSize0sm": 12,
+                  "colSize0md": 12,
+                  "colSize0lg": 12,
+                  "colSize0xl": 12,
+                  "layoutProperties": null
+                },
+                "readOnly": true
               }
             ],
             "layoutProperties": {
@@ -1865,7 +1881,8 @@
               "md": 12,
               "sm": 12,
               "xs": 12
-            }
+            },
+            "path": "0-0"
           }
         ],
         "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 },
@@ -1946,8 +1963,7 @@
           "padding": "0px",
           "spacing": 0,
           "margin": "0px",
-          "overflow": "auto",
-          "display": "grid"
+          "overflow": "auto"
         },
         "mainContainer": "gridLayout"
       },
@@ -1993,10 +2009,7 @@
           "//": "Use this class to style grid layout component.",
           "spacing": 0,
           "background": "#fff",
-          "padding": "13px",
-          "display": "grid",
-          "position": "sticky",
-          "top": "0 "
+          "padding": "13px"
         },
         "mainContainer": "gridLayout"
       },
@@ -2492,7 +2505,7 @@
         "label": {
           "//": "Use this class to style label component.",
           "font-size": "32px",
-          "color": "#3B3B3B",
+          "color": "#ABABAB",
           "font-weight": "100"
         },
         "mainContainer": "label",
@@ -2786,7 +2799,8 @@
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
-          "font-size": "17px"
+          "font-size": "17px",
+          "color": "#ABABAB"
         },
         "mainContainer": "label",
         "xl": 12,
@@ -2795,7 +2809,8 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "If this is your first time to login, then click 'Activate' and proceed. Otherwise, login using your credentials"
+      "label": "If this is your first time to login, then click 'Activate' and proceed. Otherwise, login using your credentials",
+      "color": "primary"
     },
     "icon": "FaFont",
     "group": "Form",
@@ -3161,7 +3176,8 @@
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
-          "font-size": "17px"
+          "font-size": "17px",
+          "color": "#ABABAB"
         },
         "mainContainer": "label",
         "xl": 12,
@@ -3170,7 +3186,8 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "Account/debit/credit card number"
+      "label": "Account/debit/credit card number",
+      "color": "primary"
     },
     "events": [],
     "path": "0-0-1-0-0-1-0-0-2-0-3-0-0-0-0-0-0",
@@ -3204,7 +3221,8 @@
           "padding": "10px",
           "background": "#FFFFFF",
           "borderRadius": "7px",
-          "width": "95%"
+          "width": "95%",
+          "box-shadow": "rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset"
         },
         "inputProps": { "//": "Use this class to style  text field element." },
         "mainContainer": "textField",
@@ -3249,7 +3267,8 @@
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
-          "font-size": "15px"
+          "font-size": "15px",
+          "color": "#ABABAB"
         },
         "mainContainer": "label",
         "xl": 12,
@@ -3258,7 +3277,8 @@
         "sm": 12,
         "xs": 12
       },
-      "label": " Enter your account or debit or credit card number"
+      "label": " Enter your account or debit or credit card number",
+      "color": "primary"
     },
     "icon": "FaFont",
     "group": "Form",
@@ -3442,7 +3462,8 @@
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
-          "font-size": "17px"
+          "font-size": "17px",
+          "color": "#ABABAB"
         },
         "mainContainer": "label",
         "xl": 12,
@@ -3451,7 +3472,8 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "Date of birth"
+      "label": "Date of birth",
+      "color": "primary"
     },
     "icon": "FaFont",
     "group": "Form",
@@ -3494,7 +3516,8 @@
           "padding": "10px",
           "background": "#FFFFFF",
           "borderRadius": "7px",
-          "width": "95%"
+          "width": "95%",
+          "box-shadow": "rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset"
         },
         "mainContainer": "dateCalendar",
         "xl": 12,
@@ -3529,7 +3552,8 @@
       "layoutProperties": {
         "label": {
           "//": "Use this class to style label component.",
-          "font-size": "15px"
+          "font-size": "15px",
+          "color": "#ABABAB"
         },
         "mainContainer": "label",
         "xl": 12,
@@ -3538,7 +3562,8 @@
         "sm": 12,
         "xs": 12
       },
-      "label": "Please enter a valid date of birth"
+      "label": "Please enter a valid date of birth",
+      "color": "primary"
     },
     "icon": "FaFont",
     "group": "Form",

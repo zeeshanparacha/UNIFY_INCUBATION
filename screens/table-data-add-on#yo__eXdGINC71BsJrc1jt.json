@@ -951,6 +951,56 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 }
+                              },
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "1HJ-V9gXMkwcDCrzkKhdW",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "mVL7JI_j8ToNAg3L3FA-9",
+                                    "gridProps": [],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                }
                               }
                             ],
                             "layoutProperties": {
@@ -1031,6 +1081,119 @@
                                           }
                                         ],
                                         "path": "0-0-0-0-1-1-0-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                }
+                              },
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "EHFidMmYGat64nF8sdON6",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "rSpBSyA4kpgPaDYkwp7pL",
+                                    "gridProps": [
+                                      {
+                                        "id": "CQJ9PwwGDz3st8Xc7si0g",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "Edit",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "iconButton": {
+                                              "//": "Use this class to style icon button component.",
+                                              "width": "20px",
+                                              "height": "20px"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          }
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "ibVljwKjrdAM2tQoG42ny",
+                                            "triggerName": "savedata",
+                                            "serviceType": "11",
+                                            "attributes": {
+                                              "stateName": "SaveData",
+                                              "storeType": "",
+                                              "selectedObjectBindingKey": "selectedObject",
+                                              "dataType": "",
+                                              "sourceBindingKey": ""
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-1-1-1-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -1237,6 +1400,174 @@
                                   "type": "10001",
                                   "content": "Grid layout"
                                 }
+                              },
+                              {
+                                "type": "10001",
+                                "name": "Grid layout",
+                                "id": "THVdlb3l_za2HnaTHwotw",
+                                "gridProps": [
+                                  {
+                                    "type": "column",
+                                    "id": "QjZRSIaykTtO83D1aCEO5",
+                                    "gridProps": [
+                                      {
+                                        "id": "s-kukrI6qdoNDtOZaMaXd",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "Delete",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "iconButton": {
+                                              "//": "Use this class to style icon button component.",
+                                              "width": "20px",
+                                              "height": "20px"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          }
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "n1DlBiPzuWxmdJIKzmodW",
+                                            "triggerName": "deleteitems",
+                                            "serviceType": "11",
+                                            "attributes": {
+                                              "stateName": "SaveData"
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-1-2-1-0-0"
+                                      },
+                                      {
+                                        "id": "HOsUXIWJ-yzQm2ERGOdfB",
+                                        "status": "ACTIVE",
+                                        "attributes": {
+                                          "label": "",
+                                          "variant": "contained",
+                                          "name": "Button",
+                                          "label-locale-key": "",
+                                          "fullWidth": true,
+                                          "layoutProperties": {
+                                            "button": {
+                                              "//": "Use this class to style button component."
+                                            },
+                                            "iconButton": {
+                                              "//": "Use this class to style icon button component.",
+                                              "width": "20px",
+                                              "height": "20px"
+                                            },
+                                            "inputProps": {
+                                              "//": "Use this class to style button element."
+                                            },
+                                            "mainContainer": "button",
+                                            "xl": 12,
+                                            "lg": 12,
+                                            "md": 12,
+                                            "sm": 12,
+                                            "xs": 12
+                                          }
+                                        },
+                                        "name": "Button",
+                                        "icon": "FaBimobject",
+                                        "group": "Form",
+                                        "type": "20006",
+                                        "Documentation": "<div>components 12344</div>",
+                                        "updatedAt": "23-Aug-2021",
+                                        "createdAt": "23-Aug-2021",
+                                        "order": 1,
+                                        "version": "1.0.0",
+                                        "isLatest": true,
+                                        "projectType": "web",
+                                        "component": {
+                                          "content": "Button",
+                                          "type": "20006"
+                                        },
+                                        "events": [
+                                          {
+                                            "triggerId": "n1DlBiPzuWxmdJIKzmodW",
+                                            "triggerName": "deleteitems",
+                                            "serviceType": "11",
+                                            "attributes": {
+                                              "stateName": "SaveData"
+                                            },
+                                            "type": "2",
+                                            "name": "On click"
+                                          }
+                                        ],
+                                        "path": "0-0-0-0-1-2-1-0-0"
+                                      }
+                                    ],
+                                    "layoutProperties": {
+                                      "xl": 12,
+                                      "lg": 12,
+                                      "md": 12,
+                                      "sm": 12,
+                                      "xs": 12
+                                    }
+                                  }
+                                ],
+                                "allowedContainers": [
+                                  "10001",
+                                  "20030",
+                                  "noLayout",
+                                  "20010",
+                                  "widget"
+                                ],
+                                "attributes": {
+                                  "gridProps": [],
+                                  "label": "Header",
+                                  "layoutProperties": {
+                                    "gridLayout": {
+                                      "//": "Use this class to style grid layout component.",
+                                      "padding": "5px",
+                                      "spacing": 0
+                                    },
+                                    "mainContainer": "gridLayout"
+                                  },
+                                  "layoutProps": {
+                                    "direction": "row",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start"
+                                  },
+                                  "direction": "row",
+                                  "name": "Grid layout"
+                                },
+                                "events": [],
+                                "component": {
+                                  "type": "10001",
+                                  "content": "Grid layout"
+                                },
+                                "path": "0-0-0-0-1-2-1"
                               }
                             ],
                             "layoutProperties": {
@@ -1465,7 +1796,8 @@
                         "component": {
                           "type": "10001",
                           "content": "Grid layout"
-                        }
+                        },
+                        "path": "0-0-0-0-2"
                       }
                     ],
                     "layoutProperties": {
@@ -1540,8 +1872,8 @@
     "gitBranchName": "master",
     "_id": "yo__eXdGINC71BsJrc1jt",
     "createdBy": "bilawal.farooq",
-    "updatedAt": "11/22/2023",
-    "createdAt": "11/22/2023",
+    "updatedAt": "11/28/2023",
+    "createdAt": "11/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -2460,6 +2792,19 @@
           "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 }
         },
         {
+          "componentId": "1HJ-V9gXMkwcDCrzkKhdW",
+          "componentType": "10001",
+          "id": "1HJ-V9gXMkwcDCrzkKhdW",
+          "position": {
+            "i": "1HJ-V9gXMkwcDCrzkKhdW",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 8, "lg": 8, "md": 8, "sm": 8, "xs": 8 }
+        },
+        {
           "componentId": "IbWfrDhAMh9XRlY20PBd_",
           "componentType": "10001",
           "id": "IbWfrDhAMh9XRlY20PBd_",
@@ -2473,11 +2818,37 @@
           "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
         },
         {
+          "componentId": "EHFidMmYGat64nF8sdON6",
+          "componentType": "10001",
+          "id": "EHFidMmYGat64nF8sdON6",
+          "position": {
+            "i": "EHFidMmYGat64nF8sdON6",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
+        },
+        {
           "componentId": "SSaaoO2Kpom4Xli_RjpD7",
           "componentType": "10001",
           "id": "SSaaoO2Kpom4Xli_RjpD7",
           "position": {
             "i": "SSaaoO2Kpom4Xli_RjpD7",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "xl": 2, "lg": 2, "md": 2, "sm": 2, "xs": 2 }
+        },
+        {
+          "componentId": "THVdlb3l_za2HnaTHwotw",
+          "componentType": "10001",
+          "id": "THVdlb3l_za2HnaTHwotw",
+          "position": {
+            "i": "THVdlb3l_za2HnaTHwotw",
             "x": null,
             "y": null,
             "w": null,
@@ -2514,6 +2885,38 @@
   },
   {
     "id": "dkWZmFtjDUbrAtC20axBw",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "yo__eXdGINC71BsJrc1jt",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "1HJ-V9gXMkwcDCrzkKhdW",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
@@ -2645,6 +3048,104 @@
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
+    "id": "EHFidMmYGat64nF8sdON6",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "CQJ9PwwGDz3st8Xc7si0g",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "yo__eXdGINC71BsJrc1jt",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "CQJ9PwwGDz3st8Xc7si0g",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Edit",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "iconButton": {
+          "//": "Use this class to style icon button component.",
+          "width": "20px",
+          "height": "20px"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "ibVljwKjrdAM2tQoG42ny",
+        "triggerName": "savedata",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-0-1-1-1-0-0",
+    "screenId": "yo__eXdGINC71BsJrc1jt",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
     "id": "SSaaoO2Kpom4Xli_RjpD7",
     "name": "Grid layout",
     "type": "10001",
@@ -2754,6 +3255,169 @@
     "path": "0-0-0-0-1-2-0-0-0",
     "screenId": "yo__eXdGINC71BsJrc1jt",
     "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "THVdlb3l_za2HnaTHwotw",
+    "name": "Grid layout",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "s-kukrI6qdoNDtOZaMaXd",
+          "componentType": "20006",
+          "order": 1
+        },
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "HOsUXIWJ-yzQm2ERGOdfB",
+          "componentType": "20006",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "padding": "5px",
+          "spacing": 0
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "yo__eXdGINC71BsJrc1jt",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "s-kukrI6qdoNDtOZaMaXd",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "Delete",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "iconButton": {
+          "//": "Use this class to style icon button component.",
+          "width": "20px",
+          "height": "20px"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "n1DlBiPzuWxmdJIKzmodW",
+        "triggerName": "deleteitems",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-0-1-2-1-0-0",
+    "screenId": "yo__eXdGINC71BsJrc1jt",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "HOsUXIWJ-yzQm2ERGOdfB",
+    "status": "ACTIVE",
+    "attributes": {
+      "label": "",
+      "variant": "contained",
+      "name": "Button",
+      "label-locale-key": "",
+      "fullWidth": true,
+      "layoutProperties": {
+        "button": { "//": "Use this class to style button component." },
+        "iconButton": {
+          "//": "Use this class to style icon button component.",
+          "width": "20px",
+          "height": "20px"
+        },
+        "inputProps": { "//": "Use this class to style button element." },
+        "mainContainer": "button",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      }
+    },
+    "name": "Button",
+    "icon": "FaBimobject",
+    "group": "Form",
+    "type": "20006",
+    "Documentation": "<div>components 12344</div>",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 1,
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "subType": "component",
+    "component": { "content": "Button", "type": "20006" },
+    "events": [
+      {
+        "triggerId": "n1DlBiPzuWxmdJIKzmodW",
+        "triggerName": "deleteitems",
+        "name": "On click",
+        "type": "2",
+        "serviceType": "11"
+      }
+    ],
+    "path": "0-0-0-0-1-2-1-0-0",
+    "screenId": "yo__eXdGINC71BsJrc1jt",
     "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"

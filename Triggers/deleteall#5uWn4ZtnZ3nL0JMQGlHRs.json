@@ -1,0 +1,27 @@
+{
+  "id": "GL5ZO_nbk14T9eTBQ6wSX",
+  "name": "deleteall",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "4",
+        "attributes": {
+          "stateName": "SaveData",
+          "storeType": 2,
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "csrf": "0.c4kuekx779p7AbtsSRK1FylOYX8gpvy6",
+  "_id": "5uWn4ZtnZ3nL0JMQGlHRs",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}

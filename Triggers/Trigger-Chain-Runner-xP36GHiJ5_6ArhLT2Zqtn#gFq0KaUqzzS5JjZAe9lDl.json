@@ -1,0 +1,24 @@
+{
+  "id": "xP36GHiJ5_6ArhLT2Zqtn",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "name": "Trigger Chain Runner xP36GHiJ5_6ArhLT2Zqtn",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "status": "ACTIVE",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "triggerIds": ["LOFFG5b42UX0JUAc2i7-Y", "Bt9t0w5XUqa6DKF-Egsy3"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.ey56c2hfrdmn9Ps2orAeutGkD91bd0G6",
+  "_id": "gFq0KaUqzzS5JjZAe9lDl",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023"
+}

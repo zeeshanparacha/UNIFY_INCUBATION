@@ -1,0 +1,265 @@
+[
+  {
+    "id": "Nbde7Iec1I1MXaC4Pezi3",
+    "name": "SZEmirateNav widget",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "componentId": "ymFoiN_Sv525twPbuWx6y",
+          "componentType": "10001",
+          "id": "ymFoiN_Sv525twPbuWx6y",
+          "position": {
+            "i": "ymFoiN_Sv525twPbuWx6y",
+            "x": null,
+            "y": null,
+            "w": null,
+            "h": null
+          },
+          "layoutProperties": { "lg": 12, "md": 12, "sm": 12, "xs": 12 }
+        }
+      ]
+    },
+    "layout": [
+      {
+        "type": "10001",
+        "id": "ymFoiN_Sv525twPbuWx6y",
+        "gridProps": [
+          {
+            "type": "column",
+            "id": "rYW22CxOCE6uP_UqAK5My",
+            "gridProps": [
+              {
+                "id": "htg08Wx7RiL8218Nnt2hL",
+                "status": "ACTIVE",
+                "name": "Image",
+                "icon": "FaImage",
+                "attributes": {
+                  "name": "Image",
+                  "contentType": false,
+                  "defaultImageAssetIdTemp": {
+                    "name": "dracaena-cinnabari.jpg",
+                    "id": "CNIz67fi824LHr0ae-pOV"
+                  },
+                  "layoutProperties": {
+                    "image": {
+                      "//": "Use this class to style image component.",
+                      "width": "150px",
+                      "height": "50px",
+                      "margin-left": "35px"
+                    },
+                    "mainContainer": "image",
+                    "xl": 12,
+                    "lg": 12,
+                    "md": 12,
+                    "sm": 12,
+                    "xs": 12
+                  },
+                  "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                  "imageAssetIdTemp": {
+                    "createdBy": "user",
+                    "_id": "656571719445824c5cfb5179",
+                    "name": "szELogo.svg",
+                    "type": "svg",
+                    "projectId": "655616226a9c9c0f149fbf8e",
+                    "id": "fPMn7MsQ-r2jqWe9e37Ko",
+                    "gitBranchName": "master",
+                    "folderType": "web",
+                    "platform": "web",
+                    "url": "web/szELogo.svg",
+                    "canvasUrl": "web/szELogo.svg",
+                    "createdAt": "2023-11-28T04:49:53.171Z",
+                    "updatedAt": "2023-11-28T04:49:53.171Z",
+                    "__v": 0,
+                    "uri": "web/szELogo.svg"
+                  },
+                  "imageAssetId": "fPMn7MsQ-r2jqWe9e37Ko",
+                  "stateName": null,
+                  "storeType": null,
+                  "useFullLink": null
+                },
+                "group": "Form",
+                "updatedAt": "23-Aug-2021",
+                "createdAt": "23-Aug-2021",
+                "order": 0,
+                "type": "20012",
+                "version": "1.0.0",
+                "isLatest": true,
+                "projectType": "web",
+                "component": { "content": "Image", "type": "20012" },
+                "events": [],
+                "path": "0-0-0-0-0"
+              }
+            ],
+            "layoutProperties": {
+              "xl": 12,
+              "lg": 12,
+              "md": 12,
+              "sm": 12,
+              "xs": 12
+            }
+          }
+        ],
+        "path": "0-0-0",
+        "events": [],
+        "attributes": {
+          "gridProps": [],
+          "label": "Header",
+          "layoutProperties": {
+            "gridLayout": {
+              "//": "Use this class to style grid layout component.",
+              "spacing": 0,
+              "background": "#fff",
+              "padding": "13px"
+            },
+            "mainContainer": "gridLayout"
+          },
+          "layoutProps": {
+            "direction": "row",
+            "justifyContent": "flex-start",
+            "alignItems": "flex-start"
+          },
+          "direction": "row",
+          "name": "Grid layout"
+        },
+        "component": { "type": "10001", "content": "Grid layout" },
+        "allowedContainers": ["10001", "20030", "noLayout", "20010", "widget"],
+        "name": "SZEmirateNav",
+        "dimensions": {
+          "rows": 1,
+          "columns": 1,
+          "colSize0xs": 12,
+          "colSize0sm": 12,
+          "colSize0md": 12,
+          "colSize0lg": 12,
+          "colSize0xl": 12,
+          "name": null
+        },
+        "readOnly": true
+      }
+    ],
+    "events": [],
+    "subType": "widget",
+    "screenId": "Nbde7Iec1I1MXaC4Pezi3",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "_id": "Nbde7Iec1I1MXaC4Pezi3",
+    "createdBy": "saqlainzaidi110",
+    "updatedAt": "11/28/2023",
+    "createdAt": "11/28/2023",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "ymFoiN_Sv525twPbuWx6y",
+    "name": "SZEmirateNav",
+    "type": "10001",
+    "attributes": {
+      "gridProps": [
+        {
+          "layoutProperties": {
+            "xl": 12,
+            "lg": 12,
+            "md": 12,
+            "sm": 12,
+            "xs": 12
+          },
+          "componentId": "htg08Wx7RiL8218Nnt2hL",
+          "componentType": "20012",
+          "order": 1
+        }
+      ],
+      "label": "Header",
+      "layoutProperties": {
+        "gridLayout": {
+          "//": "Use this class to style grid layout component.",
+          "spacing": 0,
+          "background": "#fff",
+          "padding": "13px"
+        },
+        "mainContainer": "gridLayout"
+      },
+      "layoutProps": {
+        "direction": "row",
+        "justifyContent": "flex-start",
+        "alignItems": "flex-start"
+      },
+      "direction": "row",
+      "name": "Grid layout"
+    },
+    "layout": null,
+    "events": [],
+    "subType": "component",
+    "screenId": "8JLmmsbp4ESUT3v1Ys9Wb",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "version": "1.0.0",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  },
+  {
+    "id": "htg08Wx7RiL8218Nnt2hL",
+    "status": "ACTIVE",
+    "name": "Image",
+    "icon": "FaImage",
+    "attributes": {
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
+      "layoutProperties": {
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "150px",
+          "height": "50px",
+          "margin-left": "35px"
+        },
+        "mainContainer": "image",
+        "xl": 12,
+        "lg": 12,
+        "md": 12,
+        "sm": 12,
+        "xs": 12
+      },
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "user",
+        "_id": "656571719445824c5cfb5179",
+        "name": "szELogo.svg",
+        "type": "svg",
+        "projectId": "655616226a9c9c0f149fbf8e",
+        "id": "fPMn7MsQ-r2jqWe9e37Ko",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/szELogo.svg",
+        "canvasUrl": "web/szELogo.svg",
+        "createdAt": "2023-11-28T04:49:53.171Z",
+        "updatedAt": "2023-11-28T04:49:53.171Z",
+        "__v": 0,
+        "uri": "web/szELogo.svg"
+      },
+      "imageAssetId": "fPMn7MsQ-r2jqWe9e37Ko",
+      "stateName": null,
+      "storeType": null,
+      "useFullLink": null
+    },
+    "group": "Form",
+    "updatedAt": "23-Aug-2021",
+    "createdAt": "23-Aug-2021",
+    "order": 0,
+    "type": "20012",
+    "version": "1.0.0",
+    "isLatest": true,
+    "projectType": "web",
+    "component": { "content": "Image", "type": "20012" },
+    "events": [],
+    "path": "0-0-0-0-0",
+    "screenId": "8JLmmsbp4ESUT3v1Ys9Wb",
+    "subType": "component",
+    "projectId": "655616226a9c9c0f149fbf8e",
+    "gitBranchName": "master",
+    "updatedTimestamp": "0000-00-00T00:00:00+00:00"
+  }
+]

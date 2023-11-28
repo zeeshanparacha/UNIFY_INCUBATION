@@ -1,16 +1,16 @@
 [
   {
-    "id": "-DJr7C7S27YQ5MXt1l30y",
-    "name": "media_queries",
+    "id": "rlBn3qacjICwqzjh87xrK",
+    "name": "SaqlainZaidiEmiratesLogIn",
     "type": "10001",
     "attributes": {
       "gridProps": [
         {
-          "componentId": "-ERvIA_riEUAvfku7UADx",
+          "componentId": "4aa7RpcUgk7xFS4pv9ZYU",
           "componentType": "10001",
-          "id": "-ERvIA_riEUAvfku7UADx",
+          "id": "4aa7RpcUgk7xFS4pv9ZYU",
           "position": {
-            "i": "-ERvIA_riEUAvfku7UADx",
+            "i": "4aa7RpcUgk7xFS4pv9ZYU",
             "x": null,
             "y": null,
             "w": null,
@@ -22,7 +22,7 @@
     },
     "layout": [
       {
-        "id": "-ERvIA_riEUAvfku7UADx",
+        "id": "4aa7RpcUgk7xFS4pv9ZYU",
         "status": "ACTIVE",
         "_id": "610134a1d1f5e860b1e8c751",
         "name": "Grid layout",
@@ -33,7 +33,9 @@
           "layoutProperties": {
             "gridLayout": {
               "//": "Use this class to style grid layout component.",
-              "spacing": 0
+              "padding": "0px",
+              "spacing": 0,
+              "margin": "0px"
             },
             "mainContainer": "gridLayout"
           },
@@ -61,49 +63,74 @@
         "gridProps": [
           {
             "type": "column",
-            "id": "3CFA4vDnD4gatPXE_Xx1m",
+            "id": "UHOjQJz26b-Q-li4fX-f2",
             "gridProps": [
               {
                 "type": "10001",
-                "name": "Grid layout",
-                "id": "ro83uSzpzzhIvQ3P7-gPS",
+                "id": "dtOP4CA7kvC9IDJLIlxLz",
                 "gridProps": [
                   {
                     "type": "column",
-                    "id": "9IyGaBCUA3dSSdOZ12qZW",
+                    "id": "L1WbltK0_yigMmza_8kLF",
                     "gridProps": [
                       {
-                        "id": "yYPKfZklL8gfBI4eitUYZ",
+                        "id": "_uPts_ktXWA2379YbeoNZ",
                         "status": "ACTIVE",
-                        "name": "Label",
+                        "name": "Image",
+                        "icon": "FaImage",
                         "attributes": {
-                          "variant": "body1",
-                          "name": "Label",
-                          "mandatory": false,
+                          "name": "Image",
+                          "contentType": false,
+                          "defaultImageAssetIdTemp": {
+                            "name": "dracaena-cinnabari.jpg",
+                            "id": "CNIz67fi824LHr0ae-pOV"
+                          },
                           "layoutProperties": {
-                            "label": {
-                              "//": "Use this class to style label component."
+                            "image": {
+                              "//": "Use this class to style image component.",
+                              "width": "150px",
+                              "height": "50px",
+                              "margin-left": "35px"
                             },
-                            "mainContainer": "label",
+                            "mainContainer": "image",
                             "xl": 12,
                             "lg": 12,
                             "md": 12,
                             "sm": 12,
                             "xs": 12
                           },
-                          "label": "text color change",
-                          "cssClassNames": [{ "cssClassName": "textcolor " }]
+                          "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+                          "imageAssetIdTemp": {
+                            "createdBy": "user",
+                            "_id": "656571719445824c5cfb5179",
+                            "name": "szELogo.svg",
+                            "type": "svg",
+                            "projectId": "655616226a9c9c0f149fbf8e",
+                            "id": "fPMn7MsQ-r2jqWe9e37Ko",
+                            "gitBranchName": "master",
+                            "folderType": "web",
+                            "platform": "web",
+                            "url": "web/szELogo.svg",
+                            "canvasUrl": "web/szELogo.svg",
+                            "createdAt": "2023-11-28T04:49:53.171Z",
+                            "updatedAt": "2023-11-28T04:49:53.171Z",
+                            "__v": 0,
+                            "uri": "web/szELogo.svg"
+                          },
+                          "imageAssetId": "fPMn7MsQ-r2jqWe9e37Ko",
+                          "stateName": null,
+                          "storeType": null,
+                          "useFullLink": null
                         },
-                        "icon": "FaFont",
                         "group": "Form",
-                        "type": "20002",
                         "updatedAt": "23-Aug-2021",
                         "createdAt": "23-Aug-2021",
-                        "order": 15,
+                        "order": 0,
+                        "type": "20012",
                         "version": "1.0.0",
                         "isLatest": true,
                         "projectType": "web",
-                        "component": { "content": "Label", "type": "20002" },
+                        "component": { "content": "Image", "type": "20012" },
                         "events": [],
                         "path": "0-0-0-0-0"
                       }
@@ -117,20 +144,17 @@
                     }
                   }
                 ],
-                "allowedContainers": [
-                  "10001",
-                  "20030",
-                  "noLayout",
-                  "20010",
-                  "widget"
-                ],
+                "path": "0-0-0",
+                "events": [],
                 "attributes": {
                   "gridProps": [],
                   "label": "Header",
                   "layoutProperties": {
                     "gridLayout": {
                       "//": "Use this class to style grid layout component.",
-                      "spacing": 0
+                      "spacing": 0,
+                      "background": "#fff",
+                      "padding": "13px"
                     },
                     "mainContainer": "gridLayout"
                   },
@@ -140,12 +164,17 @@
                     "alignItems": "flex-start"
                   },
                   "direction": "row",
-                  "name": "Grid layout",
-                  "cssClassNames": [{ "cssClassName": "media_ queries " }]
+                  "name": "Grid layout"
                 },
-                "events": [],
                 "component": { "type": "10001", "content": "Grid layout" },
-                "path": "0-0-0",
+                "allowedContainers": [
+                  "10001",
+                  "20030",
+                  "noLayout",
+                  "20010",
+                  "widget"
+                ],
+                "name": "SZEmirateNav",
                 "dimensions": {
                   "rows": 1,
                   "columns": 1,
@@ -154,7 +183,7 @@
                   "colSize0md": 12,
                   "colSize0lg": 12,
                   "colSize0xl": 12,
-                  "layoutProperties": null
+                  "name": null
                 },
                 "readOnly": true
               }
@@ -176,35 +205,36 @@
           "colSize0sm": 12,
           "colSize0md": 12,
           "colSize0lg": 12,
-          "colSize0xl": 12
+          "colSize0xl": 12,
+          "layoutProperties": null
         },
         "readOnly": true
       }
     ],
     "events": [],
     "subType": "screen",
-    "screenId": "-DJr7C7S27YQ5MXt1l30y",
+    "screenId": "rlBn3qacjICwqzjh87xrK",
     "projectId": "655616226a9c9c0f149fbf8e",
     "version": "1.0.0",
     "gitBranchName": "master",
-    "_id": "-DJr7C7S27YQ5MXt1l30y",
-    "createdBy": "bilawal.farooq",
+    "_id": "rlBn3qacjICwqzjh87xrK",
+    "createdBy": "saqlainzaidi110",
     "updatedAt": "11/28/2023",
     "createdAt": "11/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "-ERvIA_riEUAvfku7UADx",
+    "id": "4aa7RpcUgk7xFS4pv9ZYU",
     "name": "Grid layout",
     "type": "10001",
     "attributes": {
       "gridProps": [
         {
-          "componentId": "ro83uSzpzzhIvQ3P7-gPS",
+          "componentId": "dtOP4CA7kvC9IDJLIlxLz",
           "componentType": "10001",
-          "id": "ro83uSzpzzhIvQ3P7-gPS",
+          "id": "dtOP4CA7kvC9IDJLIlxLz",
           "position": {
-            "i": "ro83uSzpzzhIvQ3P7-gPS",
+            "i": "dtOP4CA7kvC9IDJLIlxLz",
             "x": null,
             "y": null,
             "w": null,
@@ -223,7 +253,9 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "spacing": 0
+          "padding": "0px",
+          "spacing": 0,
+          "margin": "0px"
         },
         "mainContainer": "gridLayout"
       },
@@ -238,15 +270,15 @@
     "layout": null,
     "events": [],
     "subType": "component",
-    "screenId": "-DJr7C7S27YQ5MXt1l30y",
+    "screenId": "rlBn3qacjICwqzjh87xrK",
     "projectId": "655616226a9c9c0f149fbf8e",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "ro83uSzpzzhIvQ3P7-gPS",
-    "name": "Grid layout",
+    "id": "dtOP4CA7kvC9IDJLIlxLz",
+    "name": "SZEmirateNav",
     "type": "10001",
     "attributes": {
       "gridProps": [
@@ -258,8 +290,8 @@
             "sm": 12,
             "xs": 12
           },
-          "componentId": "yYPKfZklL8gfBI4eitUYZ",
-          "componentType": "20002",
+          "componentId": "_uPts_ktXWA2379YbeoNZ",
+          "componentType": "20012",
           "order": 1
         }
       ],
@@ -267,7 +299,9 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "spacing": 0
+          "spacing": 0,
+          "background": "#fff",
+          "padding": "13px"
         },
         "mainContainer": "gridLayout"
       },
@@ -277,51 +311,78 @@
         "alignItems": "flex-start"
       },
       "direction": "row",
-      "name": "Grid layout",
-      "cssClassNames": [{ "cssClassName": "media_ queries " }]
+      "name": "Grid layout"
     },
     "layout": null,
     "events": [],
     "subType": "component",
-    "screenId": "-DJr7C7S27YQ5MXt1l30y",
+    "screenId": "rlBn3qacjICwqzjh87xrK",
     "projectId": "655616226a9c9c0f149fbf8e",
     "version": "1.0.0",
     "gitBranchName": "master",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
-    "id": "yYPKfZklL8gfBI4eitUYZ",
+    "id": "_uPts_ktXWA2379YbeoNZ",
     "status": "ACTIVE",
-    "name": "Label",
+    "name": "Image",
+    "icon": "FaImage",
     "attributes": {
-      "variant": "body1",
-      "name": "Label",
-      "mandatory": false,
+      "name": "Image",
+      "contentType": false,
+      "defaultImageAssetIdTemp": {
+        "name": "dracaena-cinnabari.jpg",
+        "id": "CNIz67fi824LHr0ae-pOV"
+      },
       "layoutProperties": {
-        "label": { "//": "Use this class to style label component." },
-        "mainContainer": "label",
+        "image": {
+          "//": "Use this class to style image component.",
+          "width": "150px",
+          "height": "50px",
+          "margin-left": "35px"
+        },
+        "mainContainer": "image",
         "xl": 12,
         "lg": 12,
         "md": 12,
         "sm": 12,
         "xs": 12
       },
-      "label": "text color change",
-      "cssClassNames": [{ "cssClassName": "textcolor " }]
+      "defaultImageAssetId": "CNIz67fi824LHr0ae-pOV",
+      "imageAssetIdTemp": {
+        "createdBy": "user",
+        "_id": "656571719445824c5cfb5179",
+        "name": "szELogo.svg",
+        "type": "svg",
+        "projectId": "655616226a9c9c0f149fbf8e",
+        "id": "fPMn7MsQ-r2jqWe9e37Ko",
+        "gitBranchName": "master",
+        "folderType": "web",
+        "platform": "web",
+        "url": "web/szELogo.svg",
+        "canvasUrl": "web/szELogo.svg",
+        "createdAt": "2023-11-28T04:49:53.171Z",
+        "updatedAt": "2023-11-28T04:49:53.171Z",
+        "__v": 0,
+        "uri": "web/szELogo.svg"
+      },
+      "imageAssetId": "fPMn7MsQ-r2jqWe9e37Ko",
+      "stateName": null,
+      "storeType": null,
+      "useFullLink": null
     },
-    "icon": "FaFont",
     "group": "Form",
-    "type": "20002",
     "updatedAt": "23-Aug-2021",
     "createdAt": "23-Aug-2021",
-    "order": 15,
+    "order": 0,
+    "type": "20012",
     "version": "1.0.0",
     "isLatest": true,
     "projectType": "web",
-    "component": { "content": "Label", "type": "20002" },
+    "component": { "content": "Image", "type": "20012" },
     "events": [],
     "path": "0-0-0-0-0",
-    "screenId": "-DJr7C7S27YQ5MXt1l30y",
+    "screenId": "rlBn3qacjICwqzjh87xrK",
     "subType": "component",
     "projectId": "655616226a9c9c0f149fbf8e",
     "gitBranchName": "master",

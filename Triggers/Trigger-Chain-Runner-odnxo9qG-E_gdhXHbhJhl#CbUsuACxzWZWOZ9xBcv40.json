@@ -1,0 +1,24 @@
+{
+  "id": "odnxo9qG-E_gdhXHbhJhl",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "name": "Trigger Chain Runner odnxo9qG-E_gdhXHbhJhl",
+  "createdBy": "system",
+  "updatedBy": "system",
+  "status": "ACTIVE",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "2",
+      "command": {
+        "type": "1",
+        "attributes": {
+          "triggerIds": ["NFxK3UQ0tpxgUku_XzWab", "Bt9t0w5XUqa6DKF-Egsy4"]
+        }
+      }
+    }
+  ],
+  "csrf": "0.ey56c2hfrdmn9Ps2orAeutGkD91bd0G6",
+  "_id": "CbUsuACxzWZWOZ9xBcv40",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023"
+}

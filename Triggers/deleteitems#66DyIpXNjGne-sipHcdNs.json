@@ -1,0 +1,18 @@
+{
+  "id": "n1DlBiPzuWxmdJIKzmodW",
+  "name": "deleteitems",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": { "type": "3", "attributes": { "stateName": "SaveData" } }
+    }
+  ],
+  "csrf": "0.c4kuekx779p7AbtsSRK1FylOYX8gpvy6",
+  "_id": "66DyIpXNjGne-sipHcdNs",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}
