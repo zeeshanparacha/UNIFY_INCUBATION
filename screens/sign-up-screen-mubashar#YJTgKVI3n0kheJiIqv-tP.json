@@ -2100,7 +2100,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "v2Lx5seWerCVuPpS42b_k",
+                                            "id": "tHJqVws0wY2hMcVbk9yjc",
                                             "gridProps": [
                                               {
                                                 "id": "S8tyjrhZOhLk6VXAAHtl9",
@@ -2115,7 +2115,8 @@
                                                     "link": {
                                                       "//": "Use this class to style link component.",
                                                       "text-decoration": "none",
-                                                      "color": "blue"
+                                                      "color": "blue",
+                                                      "margin-left": "-45px"
                                                     },
                                                     "mainContainer": "link",
                                                     "xl": 12,
@@ -2162,8 +2163,8 @@
                                           "layoutProperties": {
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
-                                              "padding": "0px",
-                                              "spacing": 0
+                                              "spacing": 0,
+                                              "padding-top": "4px"
                                             },
                                             "mainContainer": "gridLayout"
                                           },
@@ -2179,7 +2180,18 @@
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
-                                        }
+                                        },
+                                        "path": "0-0-0-1-0-0-6-1-0",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2342,7 +2354,8 @@
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
-                                        }
+                                        },
+                                        "path": "0-0-0-1-0-0-7-0-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2364,7 +2377,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "cRxLksEYFNA0Q_4kHo0gJ",
+                                            "id": "MwHR97-V9B6Bkmv82wZrm",
                                             "gridProps": [
                                               {
                                                 "id": "5ZOs7YRwPzlE0x_dPwrJR",
@@ -2426,8 +2439,9 @@
                                           "layoutProperties": {
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
-                                              "padding": "0px",
-                                              "spacing": 0
+                                              "padding-top": "4px",
+                                              "spacing": 0,
+                                              "padding": "0px"
                                             },
                                             "mainContainer": "gridLayout"
                                           },
@@ -2443,7 +2457,18 @@
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
-                                        }
+                                        },
+                                        "path": "0-0-0-1-0-0-7-1-0",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2465,7 +2490,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "l-vKUbP-lDR_sdrUhSBMW",
+                                            "id": "NLifVLKOsBuJAl7jma6b8",
                                             "gridProps": [
                                               {
                                                 "id": "_wZ2psODO2hZPOWXFATtP",
@@ -2544,7 +2569,18 @@
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
-                                        }
+                                        },
+                                        "path": "0-0-0-1-0-0-7-2-0",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2566,7 +2602,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "iIPmv3FzZqg2kZt-qBMKh",
+                                            "id": "gzXq6Bco9LEnDa6QZ-CvC",
                                             "gridProps": [
                                               {
                                                 "id": "Opv4Gh-AyhxWVZia9Qi9e",
@@ -2628,8 +2664,9 @@
                                           "layoutProperties": {
                                             "gridLayout": {
                                               "//": "Use this class to style grid layout component.",
-                                              "padding": "0px",
-                                              "spacing": 0
+                                              "padding-top": "4px",
+                                              "spacing": 0,
+                                              "padding": "0px"
                                             },
                                             "mainContainer": "gridLayout"
                                           },
@@ -2645,7 +2682,18 @@
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
-                                        }
+                                        },
+                                        "path": "0-0-0-1-0-0-7-3-0",
+                                        "dimensions": {
+                                          "rows": 1,
+                                          "columns": 1,
+                                          "colSize0xs": 12,
+                                          "colSize0sm": 12,
+                                          "colSize0md": 12,
+                                          "colSize0lg": 12,
+                                          "colSize0xl": 12
+                                        },
+                                        "readOnly": true
                                       }
                                     ],
                                     "layoutProperties": {
@@ -2667,7 +2715,7 @@
                                         "gridProps": [
                                           {
                                             "type": "column",
-                                            "id": "G1BaxIsKssrbE8dWAP3kE",
+                                            "id": "Jh4-lePebpSzQvYnDoqwF",
                                             "gridProps": [
                                               {
                                                 "id": "y0Joa2GIvYJBbBhWFL17b",
@@ -2746,7 +2794,8 @@
                                         "component": {
                                           "type": "10001",
                                           "content": "Grid layout"
-                                        }
+                                        },
+                                        "path": "0-0-0-1-0-0-7-4-0"
                                       }
                                     ],
                                     "layoutProperties": {
@@ -3173,8 +3222,8 @@
     "gitBranchName": "master",
     "_id": "YJTgKVI3n0kheJiIqv-tP",
     "createdBy": "mubashar",
-    "updatedAt": "11/27/2023",
-    "createdAt": "11/27/2023",
+    "updatedAt": "11/28/2023",
+    "createdAt": "11/28/2023",
     "updatedTimestamp": "0000-00-00T00:00:00+00:00"
   },
   {
@@ -5331,8 +5380,8 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
-          "spacing": 0
+          "spacing": 0,
+          "padding-top": "4px"
         },
         "mainContainer": "gridLayout"
       },
@@ -5366,7 +5415,8 @@
         "link": {
           "//": "Use this class to style link component.",
           "text-decoration": "none",
-          "color": "blue"
+          "color": "blue",
+          "margin-left": "-45px"
         },
         "mainContainer": "link",
         "xl": 12,
@@ -5597,8 +5647,9 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
-          "spacing": 0
+          "padding-top": "4px",
+          "spacing": 0,
+          "padding": "0px"
         },
         "mainContainer": "gridLayout"
       },
@@ -5763,8 +5814,9 @@
       "layoutProperties": {
         "gridLayout": {
           "//": "Use this class to style grid layout component.",
-          "padding": "0px",
-          "spacing": 0
+          "padding-top": "4px",
+          "spacing": 0,
+          "padding": "0px"
         },
         "mainContainer": "gridLayout"
       },

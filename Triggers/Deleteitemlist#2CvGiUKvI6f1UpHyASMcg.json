@@ -1,0 +1,27 @@
+{
+  "id": "44N0VQ2j3uCaCpymW9FBe",
+  "name": "Deleteitemlist",
+  "projectId": "655616226a9c9c0f149fbf8e",
+  "gitBranchName": "master",
+  "services": [
+    {
+      "type": "11",
+      "command": {
+        "type": "3",
+        "attributes": {
+          "stateName": "saveData",
+          "storeType": "",
+          "selectedObjectBindingKey": "selectedObject",
+          "dataType": "",
+          "sourceBindingKey": ""
+        }
+      }
+    }
+  ],
+  "csrf": "0.ypd66wlikws6qa6WqQcZdCNhdee7LBhU",
+  "_id": "2CvGiUKvI6f1UpHyASMcg",
+  "updatedAt": "11/28/2023",
+  "createdAt": "11/28/2023",
+  "createdBy": "bilawal.farooq",
+  "updatedBy": "bilawal.farooq"
+}
